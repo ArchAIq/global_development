@@ -1,0 +1,73 @@
+{"evt": "start", "ts": "2026-02-12T18:56:08Z", "output_csv": "C:\\12_CODINGHARD\\construction_dev_co\\CDC_IPO.csv", "progress_file": "C:\\12_CODINGHARD\\construction_dev_co\\CDC_IPO_progress.jsonl"}
+{"evt": "region_start", "ts": "2026-02-12T18:56:08Z", "region": "North America (USA, Canada)", "index": 1, "total": 6}
+{"evt": "api_response", "ts": "2026-02-12T18:56:21Z", "region": "North America (USA, Canada)", "length": 4544}
+{"evt": "parsed", "ts": "2026-02-12T18:56:21Z", "region": "North America (USA, Canada)", "count": 12}
+{"evt": "company_added", "ts": "2026-02-12T18:56:21Z", "brand_name": "D.R. Horton", "brand_id": 1}
+{"evt": "company_added", "ts": "2026-02-12T18:56:21Z", "brand_name": "Lennar", "brand_id": 2}
+{"evt": "company_added", "ts": "2026-02-12T18:56:21Z", "brand_name": "PulteGroup", "brand_id": 3}
+{"evt": "company_added", "ts": "2026-02-12T18:56:21Z", "brand_name": "NVR", "brand_id": 4}
+{"evt": "company_added", "ts": "2026-02-12T18:56:21Z", "brand_name": "Toll Brothers", "brand_id": 5}
+{"evt": "company_added", "ts": "2026-02-12T18:56:21Z", "brand_name": "Beazer Homes", "brand_id": 6}
+{"evt": "company_added", "ts": "2026-02-12T18:56:21Z", "brand_name": "MDC Holdings", "brand_id": 7}
+{"evt": "company_added", "ts": "2026-02-12T18:56:21Z", "brand_name": "Mattamy Homes", "brand_id": 8}
+{"evt": "company_added", "ts": "2026-02-12T18:56:21Z", "brand_name": "Brookfield Residential", "brand_id": 9}
+{"evt": "company_added", "ts": "2026-02-12T18:56:21Z", "brand_name": "Aecon Group", "brand_id": 10}
+{"evt": "company_added", "ts": "2026-02-12T18:56:21Z", "brand_name": "Bird Construction", "brand_id": 11}
+{"evt": "company_added", "ts": "2026-02-12T18:56:21Z", "brand_name": "Park Lawn Corporation", "brand_id": 12}
+{"evt": "region_start", "ts": "2026-02-12T18:56:23Z", "region": "Europe (Western, Central, Eastern)", "index": 2, "total": 6}
+{"evt": "api_response", "ts": "2026-02-12T18:56:41Z", "region": "Europe (Western, Central, Eastern)", "length": 5731}
+{"evt": "parsed", "ts": "2026-02-12T18:56:41Z", "region": "Europe (Western, Central, Eastern)", "count": 16}
+{"evt": "company_added", "ts": "2026-02-12T18:56:41Z", "brand_name": "Vonovia", "brand_id": 13}
+{"evt": "company_added", "ts": "2026-02-12T18:56:41Z", "brand_name": "Balder", "brand_id": 14}
+{"evt": "company_added", "ts": "2026-02-12T18:56:41Z", "brand_name": "LEG Immobilien", "brand_id": 15}
+{"evt": "company_added", "ts": "2026-02-12T18:56:41Z", "brand_name": "Aroundtown", "brand_id": 16}
+{"evt": "company_added", "ts": "2026-02-12T18:56:41Z", "brand_name": "TAG Immobilien", "brand_id": 17}
+{"evt": "company_added", "ts": "2026-02-12T18:56:41Z", "brand_name": "Kojamo", "brand_id": 18}
+{"evt": "company_added", "ts": "2026-02-12T18:56:41Z", "brand_name": "NCC", "brand_id": 19}
+{"evt": "company_added", "ts": "2026-02-12T18:56:41Z", "brand_name": "Skanska", "brand_id": 20}
+{"evt": "company_added", "ts": "2026-02-12T18:56:41Z", "brand_name": "Peab", "brand_id": 21}
+{"evt": "company_added", "ts": "2026-02-12T18:56:41Z", "brand_name": "YIT", "brand_id": 22}
+{"evt": "company_added", "ts": "2026-02-12T18:56:41Z", "brand_name": "Befimmo", "brand_id": 23}
+{"evt": "company_added", "ts": "2026-02-12T18:56:41Z", "brand_name": "Cofinimmo", "brand_id": 24}
+{"evt": "company_added", "ts": "2026-02-12T18:56:41Z", "brand_name": "PSP Swiss Property", "brand_id": 25}
+{"evt": "company_added", "ts": "2026-02-12T18:56:41Z", "brand_name": "S Immo", "brand_id": 26}
+{"evt": "company_added", "ts": "2026-02-12T18:56:41Z", "brand_name": "Warimpex", "brand_id": 27}
+{"evt": "company_added", "ts": "2026-02-12T18:56:41Z", "brand_name": "De Volkswoningborg", "brand_id": 28}
+{"evt": "region_start", "ts": "2026-02-12T18:56:43Z", "region": "Asia (China, Japan, India, South Korea, Singapore, etc.)", "index": 3, "total": 6}
+{"evt": "api_response", "ts": "2026-02-12T18:56:56Z", "region": "Asia (China, Japan, India, South Korea, Singapore, etc.)", "length": 4055}
+{"evt": "parsed", "ts": "2026-02-12T18:56:56Z", "region": "Asia (China, Japan, India, South Korea, Singapore, etc.)", "count": 10}
+{"evt": "company_added", "ts": "2026-02-12T18:56:56Z", "brand_name": "China Vanke", "brand_id": 29}
+{"evt": "company_added", "ts": "2026-02-12T18:56:56Z", "brand_name": "Country Garden", "brand_id": 30}
+{"evt": "company_added", "ts": "2026-02-12T18:56:56Z", "brand_name": "Poly Developments", "brand_id": 31}
+{"evt": "company_added", "ts": "2026-02-12T18:56:56Z", "brand_name": "Sumitomo Realty & Development", "brand_id": 32}
+{"evt": "company_added", "ts": "2026-02-12T18:56:56Z", "brand_name": "Mitsui Fudosan", "brand_id": 33}
+{"evt": "company_added", "ts": "2026-02-12T18:56:56Z", "brand_name": "Larsen & Toubro", "brand_id": 34}
+{"evt": "company_added", "ts": "2026-02-12T18:56:56Z", "brand_name": "DLF Limited", "brand_id": 35}
+{"evt": "company_added", "ts": "2026-02-12T18:56:56Z", "brand_name": "GS Engineering & Construction", "brand_id": 36}
+{"evt": "company_added", "ts": "2026-02-12T18:56:56Z", "brand_name": "Hyundai Engineering & Construction", "brand_id": 37}
+{"evt": "company_added", "ts": "2026-02-12T18:56:56Z", "brand_name": "City Developments Limited (CDL)", "brand_id": 38}
+{"evt": "region_start", "ts": "2026-02-12T18:56:58Z", "region": "Latin America and Caribbean", "index": 4, "total": 6}
+{"evt": "api_response", "ts": "2026-02-12T18:57:06Z", "region": "Latin America and Caribbean", "length": 2139}
+{"evt": "parsed", "ts": "2026-02-12T18:57:06Z", "region": "Latin America and Caribbean", "count": 5}
+{"evt": "company_added", "ts": "2026-02-12T18:57:06Z", "brand_name": "MRV", "brand_id": 39}
+{"evt": "company_added", "ts": "2026-02-12T18:57:06Z", "brand_name": "Gafisa", "brand_id": 40}
+{"evt": "company_added", "ts": "2026-02-12T18:57:06Z", "brand_name": "Cyrela Brazil Realty", "brand_id": 41}
+{"evt": "company_added", "ts": "2026-02-12T18:57:06Z", "brand_name": "Direcional Engenharia", "brand_id": 42}
+{"evt": "company_added", "ts": "2026-02-12T18:57:06Z", "brand_name": "Tegra Incorporadora", "brand_id": 43}
+{"evt": "region_start", "ts": "2026-02-12T18:57:08Z", "region": "Middle East and Africa", "index": 5, "total": 6}
+{"evt": "api_response", "ts": "2026-02-12T18:57:14Z", "region": "Middle East and Africa", "length": 2492}
+{"evt": "parsed", "ts": "2026-02-12T18:57:14Z", "region": "Middle East and Africa", "count": 4}
+{"evt": "company_added", "ts": "2026-02-12T18:57:14Z", "brand_name": "Emaar Properties", "brand_id": 44}
+{"evt": "company_added", "ts": "2026-02-12T18:57:14Z", "brand_name": "Orascom Construction", "brand_id": 45}
+{"evt": "company_added", "ts": "2026-02-12T18:57:14Z", "brand_name": "TAV Construction", "brand_id": 46}
+{"evt": "company_added", "ts": "2026-02-12T18:57:14Z", "brand_name": "Arabtec Holding", "brand_id": 47}
+{"evt": "region_start", "ts": "2026-02-12T18:57:16Z", "region": "Australia and Oceania", "index": 6, "total": 6}
+{"evt": "api_response", "ts": "2026-02-12T18:57:24Z", "region": "Australia and Oceania", "length": 2322}
+{"evt": "parsed", "ts": "2026-02-12T18:57:24Z", "region": "Australia and Oceania", "count": 6}
+{"evt": "company_added", "ts": "2026-02-12T18:57:24Z", "brand_name": "Mirvac", "brand_id": 48}
+{"evt": "company_added", "ts": "2026-02-12T18:57:24Z", "brand_name": "Stockland", "brand_id": 49}
+{"evt": "company_added", "ts": "2026-02-12T18:57:24Z", "brand_name": "Lendlease", "brand_id": 50}
+{"evt": "company_added", "ts": "2026-02-12T18:57:24Z", "brand_name": "Cedar Woods Properties", "brand_id": 51}
+{"evt": "company_added", "ts": "2026-02-12T18:57:24Z", "brand_name": "Villa World (AVID Property Group)", "brand_id": 52}
+{"evt": "company_added", "ts": "2026-02-12T18:57:24Z", "brand_name": "Goodman Group", "brand_id": 53}
+{"evt": "done", "ts": "2026-02-12T18:57:26Z", "total": 53, "csv": "C:\\12_CODINGHARD\\construction_dev_co\\CDC_IPO.csv"}

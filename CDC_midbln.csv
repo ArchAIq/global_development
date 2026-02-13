@@ -1,0 +1,104 @@
+brand_id,brand_name,hq_office,hq_address,lat,lon,country,country_code,founded,last_Y,last_Ninc,Y,IPO,employees,webpage
+1,China State Construction Engineering,China State Construction Engineering Corp. Ltd.,"No. 15 Sanlihe Road, Haidian District, Beijing 100037, China",39.9042,116.4074,China,CN,1957,299200,8400,2023,601668.SS,330000,https://english.cscec.com/
+2,China Railway Group,China Railway Group Limited,"Tower A, Fuxing Gate, No. 88 Fuxingmennei Street, Xicheng District, Beijing 100031, China",39.9042,116.364,China,CN,1950,156980,3200,2023,0390.HK,280000,https://www.crecg.com/english/
+3,China Railway Construction,China Railway Construction Corporation Limited,"No. 69 Fuxing Road, Haidian District, Beijing 100855, China",39.9042,116.282,China,CN,1948,144650,2100,2023,601186.SS,290000,https://english.crcc.cn/
+4,China Communications Construction,China Communications Construction Company Limited,"85 De Sheng Men Wai Street, Xicheng District, Beijing 100088, China",39.9567,116.382,China,CN,2005,104150,2800,2023,601800.SS,150000,https://en.ccccltd.cn/
+5,Power Construction Corporation of China,Power Construction Corporation of China Ltd.,"No. 1 Fuxing Road, Haidian District, Beijing 100038, China",39.9042,116.3,China,CN,2011,89260,1200,2023,601669.SS,180000,https://en.powerchina.cn/
+6,Vinci,Vinci SA,"1 Cours Ferdinand de Lesseps, 92851 Rueil-Malmaison, France",48.8789,2.1744,France,FR,1899,75720,4700,2023,DG.PA,222000,https://www.vinci.com/en
+7,Grupo ACS,Grupo ACS Actividades de Construcción y Servicios SA,"Calle Federico Salmon 13, 28016 Madrid, Spain",40.4168,-3.7038,Spain,ES,1997,63280,450,2023,ACS.MC,200000,https://www.grupoacs.com/
+8,Bouygues,Bouygues SA,"Place de l'Europe, 78180 Saint-Quentin-en-Yvelines, France",48.8566,2.3522,France,FR,1952,63000,1100,2023,EN.PA,200000,https://www.bouygues.com/en/
+9,Hochtief,Hochtief AG,"Alfredstrasse 236, 45133 Essen, Germany",51.4556,7.0116,Germany,DE,1874,42330,650,2023,HOT.F,44000,https://www.hochtief.com/
+10,Daiwa House,Daiwa House Industry Co. Ltd.,"3-3-5 Nakamura-cho, Nara 630-8580, Japan",34.6857,135.833,Japan,JP,1955,35450,2100,2023,1925.T,145000,https://www.daiwahouse.com/english/
+11,Lennar,Lennar Corporation,"700 NW 107th Avenue, Miami, FL 33172, USA",25.797,-80.366,United States,US,1954,34760,3404,2023,LEN,12137,https://www.lennar.com/
+12,D.R. Horton,D.R. Horton Inc.,"1341 Horton Circle, Arlington, TX 76021, USA",32.697,-97.121,United States,US,1978,34570,4665,2023,DHI,14000,https://www.drhorton.com/
+13,Larsen & Toubro,Larsen & Toubro Limited,"L&T House, Ballard Estate, Mumbai 400 001, India",18.9354,72.8341,India,IN,1938,30830,1600,2023,LT.NS,55000,https://www.larsentoubro.com/
+14,Sekisui House,Sekisui House Ltd.,"2-4-4 Osaki, Shinagawa-ku, Tokyo 141-8634, Japan",35.6197,139.728,Japan,JP,1960,28000,1200,2023,1928.T,25000,https://www.sekisuihouse.co.jp/english/
+15,China National Chemical Engineering,China National Chemical Engineering Co. Ltd.,"No. 16 North Chaoyangmen Avenue, Chaoyang District, Beijing 100020, China",39.9289,116.388,China,CN,1953,25910,350,2023,601117.SS,120000,https://en.cncec.com.cn/
+16,Eiffage,Eiffage SA,"3-7 Place de l'Europe, 78140 Velizy-Villacoublay, France",48.7819,2.2138,France,FR,1992,25010,680,2023,FGR.PA,80000,https://www.eiffage.com/en/
+17,Skanska,Skanska AB,"Warfvinges väg 25, SE-112 51 Stockholm, Sweden",59.3326,18.0316,Sweden,SE,1887,18300,274,2023,SKA B.ST,27430,https://group.skanska.com/
+18,Kajima,Kajima Corporation,"2-1-6 Akasaka, Minato-ku, Tokyo 107-8348, Japan",35.6762,139.650,Japan,JP,1840,18180,580,2023,1812.T,36000,https://www.kajima.co.jp/english/
+19,Strabag,Strabag SE,"Trabrennstrasse 2, 1020 Vienna, Austria",48.2082,16.3738,Austria,AT,1835,17790,420,2023,XD4.F,76000,https://www.strabag.com/en
+20,PulteGroup,PulteGroup Inc.,"3350 Peachtree Road NE, Suite 150, Atlanta, GA 30326, USA",33.845,-84.366,United States,US,1950,17620,2463,2023,PHM,5855,https://www.pulte.com/
+21,China Vanke,China Vanke Co. Ltd.,"Vanke Center, No.33 Huanmei Road, Dameisha, Yantian District, Shenzhen, Guangdong, China",22.5833,114.25,China,CN,1984,61470,1728,2023,000002.SZ,116394,https://www.vanke.com/en/
+22,Country Garden,Country Garden Holdings Co. Ltd.,"No. 1 Country Garden, Shunde, Foshan, Guangdong, China",23.0167,113.25,China,CN,1992,50800,-6800,2023,2007.HK,70482,https://www.countrygarden.com.cn/en/
+23,Poly Developments,Poly Developments and Holdings Group Co. Ltd.,"Poly Plaza, No. 14 Linhe West Road, Tianhe District, Guangzhou, Guangdong, China",23.1417,113.3167,China,CN,1992,41600,2250,2023,600048.SS,30000,https://www.poly.com.cn/
+24,China Resources Land,China Resources Land Limited,"China Resources Building, 26 Harbour Road, Wan Chai, Hong Kong",22.2783,114.1747,Hong Kong,HK,1994,38200,4500,2023,1109.HK,40000,https://www.crland.com.hk/
+25,Emcor,Emcor Group Inc.,"301 Merritt 7, Norwalk, CT 06851, USA",41.1364,-73.4174,United States,US,1946,16240,820,2023,EME,28000,https://www.emcor.com/
+26,Obayashi,Obayashi Corporation,"2-15-2 Konan, Minato-ku, Tokyo 108-8502, Japan",35.6426,139.698,Japan,JP,1892,15860,480,2023,1802.T,38000,
+27,Fluor,Fluor Corporation,"6700 Las Colinas Boulevard, Irving, TX 75039, USA",32.8719,-96.9434,United States,US,1912,15580,-280,2023,FLR,41000,https://www.fluor.com/
+28,China State Construction International,China State Construction International Holdings Ltd.,"Central Plaza, 18 Harbour Road, Wan Chai, Hong Kong",22.2783,114.1747,Hong Kong,HK,1979,14820,450,2023,3311.HK,25000,https://www.chinaconstruction.com/
+29,Sichuan Road and Bridge Group,Sichuan Road and Bridge Group (SRBG),"Chengdu, Sichuan Province, China",30.5728,104.0668,China,CN,1950,14590,280,2023,600039.SS,45000,https://www.srbg.com.cn/
+30,Shimizu Corporation,Shimizu Corporation,"2-3-4 Etchujima, Koto-ku, Tokyo 135-8530, Japan",35.6733,139.815,Japan,JP,1804,13670,120,2023,1803.T,24000,https://www.shimz.co.jp/english/
+31,Sumitomo Forestry,Sumitomo Forestry Co. Ltd.,"2-1-2 Otemachi, Chiyoda-ku, Tokyo 100-8602, Japan",35.6762,139.763,Japan,JP,1948,12610,380,2023,1911.T,55000,https://www.sumitomo-forestry.com/english/
+32,Taisei Corporation,Taisei Corporation,"1-25-1 Nishi-Shinjuku, Shinjuku-ku, Tokyo 163-0606, Japan",35.6895,139.692,Japan,JP,1873,11990,420,2023,1801.T,20000,https://www.taisei.co.jp/english/
+33,Daito Trust Construction,Daito Trust Construction Co. Ltd.,"2-16-1 Konan, Minato-ku, Tokyo 108-8211, Japan",35.6426,139.698,Japan,JP,1947,11810,580,2023,1878.T,43000,https://www.daito-trust.co.jp/english/
+34,Toll Brothers,Toll Brothers Inc.,"250 Gibraltar Road, Horsham, PA 19044, USA",40.201,-75.239,United States,US,1967,10870,1185,2023,TOL,5500,https://www.tollbrothers.com/
+35,NVR,NVR Inc.,"11700 Plaza America Drive, Reston, VA 20190, USA",38.954,-77.349,United States,US,1980,10470,1241,2023,NVR,6700,https://www.nvrinc.com/
+36,Balfour Beatty,Balfour Beatty plc,"1 Angel Square, Manchester M60 0AD, UK",53.4808,-2.2426,United Kingdom,GB,1909,10330,180,2023,BBY.L,26000,https://www.balfourbeatty.com/
+37,Ferrovial,Ferrovial SE,"Calle López de Hoyos 2, 28006 Madrid, Spain",40.4389,-3.6732,Spain,ES,1952,9840,520,2023,FER.MC,25000,https://www.ferrovial.com/
+38,Hyundai Engineering & Construction,Hyundai Engineering & Construction Co. Ltd.,"92 Yulgok-ro, Jongno-gu, Seoul, South Korea",37.5759,126.985,South Korea,KR,1947,18400,150,2023,000720.KS,6700,https://www.hdec.kr/eng/
+39,Taylor Morrison,Taylor Morrison Home Corporation,"4900 N. Scottsdale Road, Suite 2000, Scottsdale, AZ 85251, USA",33.5091,-111.923,United States,US,1996,8370,680,2023,TMHC,2400,https://www.taylormorrison.com/
+40,Acciona,Acciona SA,"Avenida de Europa 18, Parque Empresarial La Moraleja, 28108 Alcobendas, Spain",40.5469,-3.6422,Spain,ES,1997,7790,320,2023,ANA.MC,42000,https://www.acciona.com/
+41,Fomento de Construcciones y Contratas,FCC Fomento de Construcciones y Contratas SA,"Calle Federica Montseny 58, 08174 Sant Cugat del Vallès, Barcelona, Spain",41.4669,2.0869,Spain,ES,1944,7730,180,2023,FCC.MC,90000,https://www.fcc.es/
+42,AtkinsRéalis,AtkinsRéalis (formerly SNC-Lavalin),"455 René-Lévesque Boulevard West, Montreal, Quebec H2Z 1Z3, Canada",45.5017,-73.5673,Canada,CA,1911,7580,220,2023,ATRL.TO,35000,https://www.atkinsrealis.com/
+43,Primoris Services,Primoris Services Corporation,"2300 N. Field Street, Suite 1900, Dallas, TX 75201, USA",32.7848,-96.8,United States,US,1960,7450,195,2023,PRIM,14000,https://www.prim.com/
+44,HASEKO Corporation,HASEKO Corporation,"5-1-1 Toyosu, Koto-ku, Tokyo 135-0061, Japan",35.6544,139.796,Japan,JP,1955,7450,380,2023,1808.T,12000,https://www.haseko.co.jp/english/
+45,Subsea 7,Subsea 7 S.A.,"40 Rue du Puits Romain, L-8070 Bertrange, Luxembourg",49.6116,6.0639,Luxembourg,LU,2002,6980,210,2023,SUBC.OL,12000,https://www.subsea7.com/
+46,PORR,PORR AG,"Absberggasse 47, 1100 Vienna, Austria",48.1784,16.3845,Austria,AT,1869,6900,85,2023,ABS2.F,21000,https://www.porr-group.com/
+47,KB Home,KB Home,"10990 Wilshire Boulevard, Los Angeles, CA 90024, USA",34.0522,-118.444,United States,US,1957,6540,590,2023,KBH,1800,https://www.kbhome.com/
+48,Ackermans & Van Haaren,Ackermans & Van Haaren NV,"Begijnenstraat 5, 2000 Antwerp, Belgium",51.2194,4.4024,Belgium,BE,1905,6280,290,2023,ACKB.BR,28000,https://www.avh.be/
+49,Lendlease,Lendlease Group,"Tower Three, International Towers Sydney, 300 Barangaroo Avenue, Barangaroo NSW 2000, Australia",-33.8612,151.2014,Australia,AU,1958,6150,-144,2023,LLC,7600,https://www.lendlease.com/
+50,Sacyr,Sacyr SA,"Calle Condesa de Venadito 9, 28027 Madrid, Spain",40.4371,-3.6185,Spain,ES,1986,6140,210,2023,SCYR.MC,35000,https://www.sacyr.com/
+51,Meritage Homes,Meritage Homes Corporation,"8800 East Raintree Drive, Suite 300, Scottsdale, AZ 85260, USA",33.6115,-111.922,United States,US,1985,6040,820,2023,MTH,1800,https://www.meritagehomes.com/
+52,NCC,NCC AB,"Vallgatan 5, SE-170 80 Solna, Sweden",59.3584,17.9856,Sweden,SE,1988,5890,77,2023,NCC B.ST,12517,https://www.ncc.se/en/
+53,Peab,Peab AB,"Södra Promenaden 15, SE-260 83 Förslöv, Sweden",56.3039,12.8639,Sweden,SE,1959,5770,125,2023,PEAB B.ST,14157,https://www.peab.se/
+54,JGC Holdings,JGC Holdings Corporation,"2-1-1 Ohtemachi, Chiyoda-ku, Tokyo 100-0004, Japan",35.6872,139.763,Japan,JP,1929,5670,-120,2023,1963.T,15000,https://www.jgc.com/en/
+55,INFRONEER Holdings,INFRONEER Holdings Inc.,"4-6 Kojimachi, Chiyoda-ku, Tokyo 102-8510, Japan",35.6828,139.744,Japan,JP,2016,5400,180,2023,5076.T,25000,https://www.infroneer.com/
+56,Barratt Redrow,Barratt Developments plc,"Barratt House, Cartwright Way, Forest Business Park, Bardon Hill, Leicestershire LE67 1UF, UK",52.7076,-1.3291,United Kingdom,GB,1958,5270,320,2023,BTRW.L,15000,https://www.barrattdevelopments.co.uk/
+57,Tutor Perini,Tutor Perini Corporation,"15901 Olden Street, Sylmar, CA 91342, USA",34.3075,-118.447,United States,US,1894,5100,-95,2023,TPC,8000,https://www.tutorperini.com/
+58,Webuild,Webuild S.p.A.,"Via Milano 3, 20097 San Donato Milanese, Milan, Italy",45.4198,9.2662,Italy,IT,1994,5050,-180,2023,WBD.MI,85000,https://www.webuildgroup.com/
+59,Obrascón Huarte Lain,OHLA Obrascón Huarte Lain SA,"Calle Velázquez 134, 28046 Madrid, Spain",40.4371,-3.6891,Spain,ES,1911,4950,-95,2023,OHLA.MC,24000,https://www.ohla-group.com/
+60,Kier Group,Kier Group plc,"Tempo House, 15 Falcon Road, London SW11 2PJ, UK",51.4679,-0.1657,United Kingdom,GB,1928,4930,45,2023,KIE.L,22000,https://www.kier.co.uk/
+61,Vistry Group,Vistry Group plc,"11 Tower View, Kings Hill, West Malling ME19 4UY, UK",51.2747,0.4053,United Kingdom,GB,2020,4740,320,2023,VTY.L,12000,https://www.vistrygroup.co.uk/
+62,Fletcher Building,Fletcher Building Limited,"810 Great South Road, Penrose, Auckland 1061, New Zealand",-36.9167,174.783,New Zealand,NZ,2001,4680,180,2023,FBU.NZ,15000,https://www.fletcherbuilding.com/
+63,Dream Finders Homes,Dream Finders Homes Inc.,"14701 Philips Highway, Jacksonville, FL 32256, USA",30.1699,-81.5978,United States,US,2009,4670,380,2023,DFH,1600,https://www.dreamfindershomes.com/
+64,Taylor Wimpey,Taylor Wimpey plc,"Gateway House, Gatehouse Way, Aylesbury HP19 8UR, UK",51.8185,-0.8128,United Kingdom,GB,1930,4470,380,2023,TW.L,4500,https://www.taylorwimpey.co.uk/
+65,M/I Homes,M/I Homes Inc.,"3 Easton Oval, Columbus, OH 43219, USA",40.0431,-82.9194,United States,US,1976,4470,420,2023,MHO,2100,https://www.mihomes.com/
+66,Emaar Properties,Emaar Properties PJSC,"P.O. Box 9440, Dubai, United Arab Emirates",25.1972,55.2742,United Arab Emirates,AE,1997,6793,1998,2023,EMAAR,9429,https://www.emaar.com/
+67,DEME Group,DEME Group NV,"Scheldedijk 30, 9140 Temse, Belgium",51.1264,4.2139,Belgium,BE,1902,4260,185,2023,DEME.BR,5200,https://www.deme-group.com/
+68,Granite Construction,Granite Construction Inc.,"585 West Beach Street, Watsonville, CA 95076, USA",36.9102,-121.757,United States,US,1922,4230,85,2023,GVA,8700,https://www.graniteconstruction.com/
+69,Century Communities,Century Communities Inc.,"8390 E. Crescent Parkway, Greenwood Village, CO 80111, USA",39.6133,-104.887,United States,US,2002,4150,520,2023,CCS,1800,https://www.centurycommunities.com/
+70,Kandenko,Kandenko Co. Ltd.,"4-8-33 Shiba, Minato-ku, Tokyo 108-8533, Japan",35.6544,139.746,Japan,JP,1944,4070,95,2023,1942.T,18000,https://www.kandenko.co.jp/english/
+71,Persimmon,Persimmon plc,"Persimmon House, Fulford, York YO19 4FE, UK",53.9432,-1.0619,United Kingdom,GB,1972,4010,250,2023,PSN.L,5000,https://www.persimmonhomes.com/
+72,Implenia,Implenia AG,"Thurgauerstrasse 101A, 8152 Glattpark, Switzerland",47.4114,8.5776,Switzerland,CH,2006,3940,95,2023,IMPN.SW,10000,https://www.implenia.com/
+73,Veidekke,Veidekke ASA,"Skøyen Atrium, Skøyen, 0212 Oslo, Norway",59.9139,10.7522,Norway,NO,1936,3910,185,2023,VEI.OL,8500,https://www.veidekke.com/
+74,Shandong Hi-Speed,Shandong Hi-Speed Group Co. Ltd.,"Jinan, Shandong Province, China",36.6512,117.120,China,CN,1993,3770,120,2023,600350.SS,45000,https://www.sdhs.com.cn/
+75,Tri Pointe Homes,Tri Pointe Homes Inc.,"19520 Jamboree Road, Irvine, CA 92612, USA",33.6846,-117.826,United States,US,2007,3750,320,2023,TPH,1100,https://www.tripointehomes.com/
+76,TODA Corporation,TODA Corporation,"1-19-1 Ginza, Chuo-ku, Tokyo 104-0061, Japan",35.6744,139.763,Japan,JP,1881,3550,120,2023,1860.T,16000,https://www.todakenchiku.co.jp/english/
+77,Aecon Group,Aecon Group Inc.,"2005 Sheppard Avenue East, Suite 400, Toronto, ON M2J 5B4, Canada",43.768,-79.339,Canada,CA,1877,5199,83,2023,ARE,12000,https://www.aecon.com/
+78,MYR Group,MYR Group Inc.,"1701 Golf Road, Rolling Meadows, IL 60008, USA",42.0795,-87.9892,United States,US,1947,3510,85,2023,MYRG,7500,https://www.myrgroup.com/
+79,Per Aarsleff Holding,Per Aarsleff Holding A/S,"Granskoven 8, 8660 Skanderborg, Denmark",56.0369,9.9322,Denmark,DK,1926,3250,95,2023,PAAL-B.CO,11500,https://www.aarsleff.com/
+80,Hovnanian Enterprises,Hovnanian Enterprises Inc.,"90 Matawan Road, Fifth Floor, Matawan, NJ 07747, USA",40.4092,-74.2333,United States,US,1959,3140,-85,2023,HOV,1800,https://www.khov.com/
+81,The Berkeley Group,Berkeley Group Holdings plc,"Berkeley House, 19 Portsmouth Road, Cobham KT11 1JG, UK",51.3296,-0.4103,United Kingdom,GB,1976,3070,310,2023,BKG.L,2500,https://www.berkeleygroup.co.uk/
+82,Bellway,Bellway plc,"Woolsington House, Woolsington, Newcastle upon Tyne NE13 8BF, UK",55.0289,-1.6885,United Kingdom,GB,1946,3050,290,2023,BWY.L,3000,https://www.bellway.co.uk/
+83,Installed Building Products,Installed Building Products Inc.,"495 South High Street, Suite 50, Columbus, OH 43215, USA",39.9612,-82.9988,United States,US,1978,2970,180,2023,IBP,11000,https://www.installedbuildingproducts.com/
+84,AF Gruppen,AF Gruppen ASA,"Stortorvet 10, 0184 Oslo, Norway",59.9139,10.7522,Norway,NO,1986,2890,95,2023,AFG.OL,12000,https://www.afgruppen.com/
+85,ENKA,ENKA İnşaat ve Sanayi A.Ş.,"Söğütözü Cad. No. 14, 06510 Ankara, Turkey",39.9255,32.8662,Turkey,TR,1957,2840,120,2023,ENKAI.IS,25000,https://www.enka.com/
+86,Arcosa,Arcosa Inc.,"500 N. Akard Street, Suite 400, Dallas, TX 75201, USA",32.7848,-96.8,United States,US,2018,2830,180,2023,ACA,8500,https://www.arcosa.com/
+87,Kalpataru Power Transmission,Kalpataru Projects International Ltd.,"Kalpataru Square, Kondivita Road, Andheri East, Mumbai 400 059, India",19.1136,72.8697,India,IN,1981,2770,85,2023,KPIL.NS,12000,https://www.kalpatarupower.com/
+88,KEC International,KEC International Ltd.,"KEC House, 463 Dr. Annie Besant Road, Worli, Mumbai 400 030, India",18.9874,72.8153,India,IN,1945,2660,45,2023,KEC.NS,9000,https://www.kecl.com/
+89,Elecnor,Elecnor SA,"Calle Pradillo 42, 28002 Madrid, Spain",40.4371,-3.6743,Spain,ES,1958,2660,75,2023,ENO.MC,22000,https://www.elecnor.com/
+90,Champion Homes,Skyline Champion Corporation,"755 West Big Beaver Road, Troy, MI 48084, USA",42.5634,-83.1397,United States,US,1953,2620,95,2023,SKY,6700,https://www.skylinechampion.com/
+91,Shikun & Binui,Shikun & Binui Ltd.,"1 Yitzhak Sadeh Street, Tel Aviv 60460, Israel",32.0853,34.7818,Israel,IL,1924,2590,85,2023,SKBN.TA,14000,https://www.shikunbinui.com/
+92,NCC Limited,NCC Limited,"NCC House, Madhapur, Hyderabad 500 081, India",17.4485,78.3908,India,IN,1978,2540,55,2023,NCC.NS,15000,https://www.ncclimited.com/
+93,Bird Construction,Bird Construction Inc.,"5700 Explorer Drive, Suite 400, Mississauga, ON L4W 0C6, Canada",43.647,-79.625,Canada,CA,1920,3096,51,2023,BDT,5000,https://www.bird.ca/
+94,Construction Partners,Construction Partners Inc.,"290 Healthwest Drive, Suite 2, Dothan, AL 36303, USA",31.2232,-85.3905,United States,US,2001,2450,95,2023,ROAD,3000,https://www.constructionpartners.com/
+95,Beazer Homes,Beazer Homes USA Inc.,"1000 Abernathy Rd NE, Suite 260, Atlanta, GA 30328, USA",33.948,-84.359,United States,US,1985,2380,271,2023,BZH,1100,https://www.beazer.com/
+96,Budimex,Budimex SA,"ul. Marszałkowska 104, 00-014 Warsaw, Poland",52.2297,21.0122,Poland,PL,1968,2340,120,2023,BDX.WA,15000,https://www.budimex.pl/
+97,Galliford Try,Galliford Try Holdings plc,"Cowley Business Park, Cowley, Uxbridge UB8 2AL, UK",51.5074,-0.4784,United Kingdom,GB,1908,2240,65,2023,GFRD.L,10000,https://www.gallifordtry.co.uk/
+98,Sterling Infrastructure,Sterling Infrastructure Inc.,"1800 Hughes Landing Boulevard, The Woodlands, TX 77380, USA",30.1654,-95.4663,United States,US,1932,2230,155,2023,STRL,5000,https://www.sterlinginfrastructure.com/
+99,Gek Terna,Gek Terna SA,"85 Mesogeion Avenue, 115 26 Athens, Greece",37.9838,23.7275,Greece,GR,1963,2170,85,2023,GEKTERNA.AT,7000,https://www.gekterna.com/
+100,Grupo Empresarial San José,Grupo Empresarial San José SA,"Ronda de Toledo 22, 28005 Madrid, Spain",40.4074,-3.7093,Spain,ES,1952,2120,55,2023,GSJ.MC,15000,https://www.gruposanjose.com/
+101,Green Brick Partners,Green Brick Partners Inc.,"2805 Dallas Parkway, Suite 400, Plano, TX 75093, USA",33.0198,-96.6989,United States,US,2006,2110,310,2023,GRBK,1200,https://www.greenbrickpartners.com/
+102,Okumura Corporation,Okumura Corporation,"2-2-2 Uchisaiwaicho, Chiyoda-ku, Tokyo 100-0011, Japan",35.6744,139.753,Japan,JP,1907,1960,55,2023,1833.T,6500,https://www.okumura.co.jp/english/
+103,YIT,YIT Oyj,"Panuntie 11, 00620 Helsinki, Finland",60.2264,24.9323,Finland,FI,1912,2470,-25,2023,YIT.HE,4324,https://www.yitgroup.com/

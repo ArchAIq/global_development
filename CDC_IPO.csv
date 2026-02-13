@@ -1,0 +1,54 @@
+brand_id,brand_name,hq_office,hq_address,lat,lon,country,country_code,founded,last_Y,last_Ninc,Y,IPO,employees,webpage
+1,D.R. Horton,"D.R. Horton, Inc.","1341 Horton Circle, Arlington, TX 76021, USA",32.697,-97.121,United States,US,1978,33494.9,4665.3,2023,DHI,14000,https://www.drhorton.com/
+2,Lennar,Lennar Corporation,"700 NW 107th Avenue, Miami, FL 33172, USA",25.797,-80.366,United States,US,1954,34115.1,3404.3,2023,LEN,12137,https://www.lennar.com/
+3,PulteGroup,"PulteGroup, Inc.","3350 Peachtree Road NE, Suite 150, Atlanta, GA 30326, USA",33.845,-84.366,United States,US,1950,16740,2463,2023,PHM,5855,https://www.pulte.com/
+4,NVR,"NVR, Inc.","11700 Plaza America Drive, Reston, VA 20190, USA",38.954,-77.349,United States,US,1980,10979.7,1241.1,2023,NVR,6700,https://www.nvrinc.com/
+5,Toll Brothers,"Toll Brothers, Inc.","250 Gibraltar Road, Horsham, PA 19044, USA",40.201,-75.239,United States,US,1967,10164.7,1185.3,2023,TOL,5500,https://www.tollbrothers.com/
+6,Beazer Homes,"Beazer Homes USA, Inc.","1000 Abernathy Rd NE, Suite 260, Atlanta, GA 30328, USA",33.948,-84.359,United States,US,1985,2837.1,271.1,2023,BZH,1100,https://www.beazer.com/
+7,MDC Holdings,"MDC Holdings, Inc.","4350 S. Monaco Street, Suite 100, Denver, CO 80237, USA",39.643,-104.902,United States,US,1972,5210.4,597.2,2023,MDC,2321,https://www.richmondamerican.com/
+8,Mattamy Homes,Mattamy Group Corporation,"7800 Susquehanna Street, Suite 100, Denver, CO 80237, USA",39.641,-104.901,United States,US,1978,,,,,1700,https://www.mattamyhomes.com/
+9,Brookfield Residential,Brookfield Residential Properties Inc.,"5949 Sherry Lane, Suite 1300, Dallas, TX 75225, USA",32.859,-96.797,United States,US,1950,,,,,,https://www.brookfieldresidential.com/
+10,Aecon Group,Aecon Group Inc.,"2005 Sheppard Avenue East, Suite 400, Toronto, ON M2J 5B4, Canada",43.768,-79.339,Canada,CA,1877,5199,83.3,2023,ARE,12000,https://www.aecon.com/
+11,Bird Construction,Bird Construction Inc.,"5700 Explorer Drive, Suite 400, Mississauga, ON L4W 0C6, Canada",43.647,-79.625,Canada,CA,1920,3095.9,50.8,2023,BDT,5000,https://www.bird.ca/
+12,Park Lawn Corporation,Park Lawn Corporation,"2 St. Clair Avenue West, Suite 1100, Toronto, ON M4V 1L5, Canada",43.687,-79.396,Canada,CA,1892,390.27,-4.53,2023,PLC,2400,https://www.parklawncorp.com/
+13,Vonovia,Vonovia SE,"Universitätsstraße 133, 44803 Bochum, Germany",51.4714,7.2342,Germany,DE,1998,6040.0,-2140.0,2023,VNA,11564,https://www.vonovia.de/
+14,Balder,Fastighets AB Balder,"Östra Hamngatan 49, 411 09 Gothenburg, Sweden",57.7072,11.9672,Sweden,SE,2005,695.0,-957.0,2023,BALD-B.ST,570,https://www.balder.se/
+15,LEG Immobilien,LEG Immobilien SE,"Hans-Böckler-Straße 38, 40476 Düsseldorf, Germany",51.2378,6.7735,Germany,DE,1997,1440.0,-974.0,2023,LEG,1600,https://www.leg-wohnen.de/
+16,Aroundtown,Aroundtown SA,"1, Avenue du Bois Châtton, L-1219 Luxembourg",49.6404,6.154,Luxembourg,LU,2004,1220.0,-931.0,2023,AT1,1133,https://www.aroundtown.de/
+17,TAG Immobilien,TAG Immobilien AG,"Steckelhörn 5, 20457 Hamburg, Germany",53.5445,9.9924,Germany,DE,1882,439.0,-1080.0,2023,TEG,1687,https://www.tag-ag.com/
+18,Kojamo,Kojamo Oyj,"Mannerheimintie 164, 00300 Helsinki, Finland",60.1944,24.9189,Finland,FI,1997,445.0,-69.0,2023,KOJAMO.HE,429,https://www.kojamo.fi/
+19,NCC,NCC AB,"Vallgatan 5, SE-170 80 Solna, Sweden",59.3584,17.9856,Sweden,SE,1988,5163.0,77.0,2023,NCC B.ST,12517,https://www.ncc.se/en/
+20,Skanska,Skanska AB,"Warfvinges väg 25, SE-112 51 Stockholm, Sweden",59.3326,18.0316,Sweden,SE,1887,16521.0,274.0,2023,SKA B.ST,27430,https://group.skanska.com/
+21,Peab,Peab AB,"Södra Promenaden 15, SE-260 83 Förslöv, Sweden",56.3039,12.8639,Sweden,SE,1959,5677.0,125.0,2023,PEAB B.ST,14157,https://www.peab.se/
+22,YIT,YIT Oyj,"Panuntie 11, 00620 Helsinki, Finland",60.2264,24.9323,Finland,FI,1912,2470.0,-25.0,2023,YIT.HE,4324,https://www.yitgroup.com/
+23,Befimmo,Befimmo SA,"Chaussée de Wavre 1945, 1160 Auderghem, Belgium",50.8157,4.4466,Belgium,BE,1995,200.0,10.0,2023,BEFB.BR,143,https://www.befimmo.be/
+24,Cofinimmo,Cofinimmo SA,"Boulevard de la Woluwe 58, 1200 Brussels, Belgium",50.8454,4.4364,Belgium,BE,1983,270.0,132.0,2023,COFB.BR,152,https://www.cofinimmo.be/
+25,PSP Swiss Property,PSP Swiss Property AG,"Seestrasse 353, CH-8038 Zurich, Switzerland",47.3344,8.5407,Switzerland,CH,1999,341.0,202.0,2023,PSPN,116,https://www.psp.info/
+26,S Immo,S Immo AG,"Wiennerbergstrasse 7-11, 1120 Vienna, Austria",48.1735,16.3206,Austria,AT,1979,301.0,-210.0,2023,SPI,196,https://www.s-immo.at/
+27,Warimpex,Warimpex Finanz- und Beteiligungs AG,"Floridsdorfer Hauptstrasse 1, 1210 Vienna, Austria",48.2701,16.4055,Austria,AT,1960,126.0,24.0,2023,WXF,89,https://www.warimpex.com/
+28,De Volkswoningborg,NV De Volkswoningborg,"Damsterdiep 191, 9713 ED Groningen, Netherlands",53.2191,6.5737,Netherlands,NL,1924,,,,,,https://www.volkswoningbouw.nl/
+29,China Vanke,"China Vanke Co., Ltd.","Vanke Center, No.33 Huanmei Road, Dameisha, Yantian District, Shenzhen, Guangdong, China",22.5833,114.25,China,CN,1984,61470,1728,2023,000002.SZ,116394,https://www.vanke.com/en/
+30,Country Garden,"Country Garden Holdings Co., Ltd.","No. 1 Country Garden, Shunde, Foshan, Guangdong, China",23.0167,113.25,China,CN,1992,50800,-6800,2023,2007.HK,70482,https://www.countrygarden.com.cn/en/
+31,Poly Developments,"Poly Developments and Holdings Group Co., Ltd.","Poly Plaza, No. 14 Linhe West Road, Tianhe District, Guangzhou, Guangdong, China",23.1417,113.3167,China,CN,1992,41600,2250,2023,600048.SS,30000,https://www.poly.com.cn/
+32,Sumitomo Realty & Development,"Sumitomo Realty & Development Co., Ltd.","Shinjuku Sumitomo Building, 2-6-1 Nishi-Shinjuku, Shinjuku-ku, Tokyo 163-0209, Japan",35.6939,139.6922,Japan,JP,1949,7830,1490,2023,8830.T,14282,https://www.sumitomo-rd.co.jp/english/
+33,Mitsui Fudosan,"Mitsui Fudosan Co., Ltd.","1-1, Nihonbashi Muromachi 2-chome, Chuo-ku, Tokyo 103-0022, Japan",35.6853,139.7733,Japan,JP,1941,17100,1000,2023,8801.T,14000,https://www.mitsuifudosan.co.jp/english/
+34,Larsen & Toubro,Larsen & Toubro Limited,"L&T House, Ballard Estate, Mumbai 400 001, India",18.9354,72.8341,India,IN,1938,25900,1600,2023,LT.NS,55000,https://www.larsentoubro.com/
+35,DLF Limited,DLF Limited,"DLF Gateway Tower, DLF City Phase III, Gurugram, Haryana 122002, India",28.4801,77.0856,India,IN,1946,720,240,2023,DLF.NS,500,https://www.dlf.in/
+36,GS Engineering & Construction,GS Engineering & Construction Corp.,"GS Tower, 508 Nonhyeon-ro, Gangnam-gu, Seoul, South Korea",37.5045,127.038,South Korea,KR,1969,9300,140,2023,006360.KS,7200,https://www.gsconst.com/eng/
+37,Hyundai Engineering & Construction,"Hyundai Engineering & Construction Co., Ltd.","92 Yulgok-ro, Jongno-gu, Seoul, South Korea",37.5759,126.985,South Korea,KR,1947,18400,150,2023,000720.KS,6700,https://www.hdec.kr/eng/
+38,City Developments Limited (CDL),City Developments Limited,"8 Shenton Way, #12-01, Singapore 068811",1.277,103.8455,Singapore,SG,1963,2400,350,2023,C09.SI,2500,https://www.cdl.com.sg/
+39,MRV,MRV Engenharia e Participações S.A.,"Avenida Raja Gabaglia, 2720, Bairro Estoril, Belo Horizonte - MG, 30494-170, Brazil",-19.9667,-43.9717,Brazil,BR,1979,810.0,44.0,2022,MRVE3.SA,2300,https://www.mrv.com.br/
+40,Gafisa,GAFISA S.A.,"Av. Pres. Juscelino Kubitschek, 1830 - Torre 2 - 12 andar, São Paulo - SP, 04543-900, Brazil",-23.5954,-46.6798,Brazil,BR,1954,120.0,-40.0,2022,GFSA3.SA,500,https://www.gafisa.com.br/
+41,Cyrela Brazil Realty,Cyrela Brazil Realty S.A. Empreendimentos e Participações,"Avenida Brigadeiro Faria Lima, 3400, 15º andar, Itaim Bibi, São Paulo - SP, 04538-132, Brazil",-23.5888,-46.6824,Brazil,BR,1962,1000.0,150.0,2022,CYRE3.SA,1800,https://www.cyrela.com.br/
+42,Direcional Engenharia,Direcional Engenharia S.A.,"Rua Bernardo Guimarães, 93, 16th floor, Funcionários, Belo Horizonte - MG, 30140-080, Brazil",-19.9287,-43.9378,Brazil,BR,1981,600.0,50.0,2022,DIRR3.SA,1500,https://www.direcional.com.br/
+43,Tegra Incorporadora,Tegra Incorporadora S.A.,"Av. Magalhães de Castro, 4800 - Torre 1 - 23º Andar - Cidade Jardim, São Paulo - SP, 05676-120, Brazil",-23.5736,-46.7118,Brazil,BR,2007,85.0,-20.0,2022,,250,https://www.tegra.com.br/
+44,Emaar Properties,Emaar Properties PJSC,"P.O. Box 9440, Dubai, United Arab Emirates",25.197197,55.27421,United Arab Emirates,AE,1997,6793.25,1997.58,2023,EMAAR,9429,https://www.emaar.com/
+45,Orascom Construction,Orascom Construction PLC,"4 Nile City Towers, 2005C, Corniche El Nil, Ramlet Beaulac, Cairo, Egypt",30.0584,31.2354,Egypt,EG,1950,4591.6,121.3,2023,ORAS,52410,https://www.orascom.com/
+46,TAV Construction,TAV Construction,"Istanbul, Turkey",41.0053,28.9769,Turkey,TR,2003,,,,TAVHL,14000,https://www.tavconstruction.com/eng/
+47,Arabtec Holding,Arabtec Holding PJSC,"Dubai, United Arab Emirates",25.2048,55.2708,United Arab Emirates,AE,1975,,,,,,https://www.arabtec-construction.com/en
+48,Mirvac,Mirvac Group,"200 George Street, Sydney NSW 2000, Australia",-33.8649,151.2094,Australia,AU,1972,1890,212,2023,MGR,720,https://www.mirvac.com/
+49,Stockland,Stockland Corporation Limited,"Level 26, 135 King Street, Sydney NSW 2000, Australia",-33.8665,151.2074,Australia,AU,1952,1850,289,2023,SGP,1470,https://www.stockland.com.au/
+50,Lendlease,Lendlease Group,"Tower Three, International Towers Sydney, 300 Barangaroo Avenue, Barangaroo NSW 2000, Australia",-33.8612,151.2014,Australia,AU,1958,7430,-144,2023,LLC,7600,https://www.lendlease.com/
+51,Cedar Woods Properties,Cedar Woods Properties Limited,"Level 2, 11 Ventnor Avenue, West Perth WA 6005, Australia",-31.9523,115.8449,Australia,AU,1987,225,32,2023,CWP,70,https://www.cedarwoods.com.au/
+52,Villa World (AVID Property Group),AVID Property Group Limited,"Level 13, 12 Creek Street, Brisbane QLD 4000, Australia",-27.4698,153.0251,Australia,AU,1986,,,,,150,https://www.avid.com.au/
+53,Goodman Group,Goodman Group,"Level 17, 60 Castlereagh Street, Sydney NSW 2000, Australia",-33.8669,151.2091,Australia,AU,1979,1250,1865,2023,GMG,1000,https://www.goodman.com/

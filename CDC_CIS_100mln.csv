@@ -1,0 +1,8 @@
+brand_id,brand_name,hq_office,hq_address,lat,lon,country,country_code,founded,last_Y,last_Ninc,Y,IPO,employees,webpage
+1,PIK Group,PIK Group JSC,"19 Barrikadnaya St, bld. 1, Moscow 123242, Russia",55.757,37.583,Russia,RU,1994,7300,,2024,PIKK,1881,https://pik-group.com/
+2,LSR Group,PJSC LSR Group,"36 Kazanskaya St, St. Petersburg 190031, Russia",59.932,30.317,Russia,RU,1993,2400,,2024,LSRG,10741,https://www.lsrgroup.ru/
+3,Samolet Group,Samolet Group PJSC,"8 Ivana Franko St, Moscow 121108, Russia",55.751,37.522,Russia,RU,2014,3391,,2024,SMLT,,https://www.samolet.ru/
+4,Etalon Group,Etalon Group PLC,"2-3 Bogatyrsky Ave, St. Petersburg, Russia",59.938,30.314,Russia,RU,1987,1310,,2024,ETLN,6000,https://www.etalongroup.com/
+5,Setl Group,Setl Group LLC,"St. Petersburg, Russia",59.938,30.314,Russia,RU,1994,1337,,2023,,,https://www.setlgroup.ru/
+6,BI Group,BI Development Ltd,"Astana, Kazakhstan",51.161,71.470,Kazakhstan,KZ,1995,1290,,2024,BIGD,633,https://www.bi-group.org/
+7,KazStroyService,OGCC KazStroyService JSC,"Almaty, Kazakhstan",43.222,76.851,Kazakhstan,KZ,1995,141,,2023,KASS,4000,https://www.kazstroy.kz/

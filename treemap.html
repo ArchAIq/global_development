@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Construction & Development Companies – Revenue Treemap</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap');
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'DM Sans', system-ui, sans-serif;
+      background: linear-gradient(135deg, #0f0f12 0%, #1a1a22 50%, #0f1419 100%);
+      min-height: 100vh;
+      color: #e2e8f0;
+    }
+    header {
+      padding: 2rem;
+      text-align: center;
+    }
+    h1 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      margin-bottom: 0.25rem;
+    }
+    .subtitle {
+      font-size: 0.95rem;
+      color: #94a3b8;
+    }
+    #treemap {
+      width: 100%;
+      height: calc(100vh - 180px);
+      padding: 0 1.5rem 2rem;
+    }
+    .tile {
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+      transition: filter 0.15s ease;
+    }
+    .tile:hover { filter: brightness(1.15); }
+    .tile-label {
+      padding: 6px 8px;
+      font-size: 11px;
+      font-weight: 600;
+      line-height: 1.2;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+      color: #fff;
+    }
+    .tile-value {
+      padding: 0 8px 6px;
+      font-size: 10px;
+      font-weight: 500;
+      opacity: 0.9;
+      color: rgba(255,255,255,0.95);
+    }
+    .tooltip {
+      position: fixed;
+      padding: 12px 16px;
+      background: rgba(15, 23, 42, 0.95);
+      border: 1px solid rgba(148, 163, 184, 0.2);
+      border-radius: 8px;
+      font-size: 13px;
+      pointer-events: none;
+      z-index: 1000;
+      box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+    }
+    .tooltip-name { font-weight: 600; margin-bottom: 4px; }
+    .tooltip-revenue { color: #38bdf8; }
+    .tooltip-country { color: #94a3b8; font-size: 12px; }
+    .tooltip-hint { color: #64748b; font-size: 11px; margin-top: 6px; }
+    .legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 16px;
+      justify-content: center;
+      padding: 0.75rem 1.5rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .legend-item {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 12px;
+      color: #94a3b8;
+      cursor: pointer;
+      padding: 4px 10px;
+      border-radius: 6px;
+      border: 1px solid transparent;
+      transition: all 0.15s ease;
+    }
+    .legend-item:hover { background: rgba(255,255,255,0.06); color: #e2e8f0; }
+    .legend-item.active { background: rgba(56,189,248,0.2); border-color: rgba(56,189,248,0.4); color: #38bdf8; }
+    .legend-swatch {
+      width: 14px;
+      height: 14px;
+      border-radius: 3px;
+      flex-shrink: 0;
+    }
+    #revenue-filter-wrap {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      padding: 0.75rem 1.5rem 1rem;
+      max-width: 750px;
+      margin: 0 auto;
+    }
+    #revenue-filter {
+      flex: 1;
+      max-width: 600px;
+    }
+    #revenue-filter.disabled .track,
+    #revenue-filter.disabled .thumb-wrap { pointer-events: none; opacity: 0.4; }
+    #revenue-filter.disabled .track { cursor: default; }
+    #revenue-filter.disabled .range-labels span { pointer-events: none; opacity: 0.6; }
+    #revenue-filter-btn {
+      padding: 6px 14px;
+      font-size: 12px;
+      font-weight: 600;
+      border-radius: 6px;
+      cursor: pointer;
+      border: 1px solid rgba(148,163,184,0.3);
+      background: rgba(148,163,184,0.1);
+      color: #94a3b8;
+      white-space: nowrap;
+      transition: all 0.15s ease;
+    }
+    #revenue-filter-btn:hover { background: rgba(148,163,184,0.2); color: #e2e8f0; }
+    #revenue-filter-btn.active {
+      background: rgba(56,189,248,0.2);
+      border-color: rgba(56,189,248,0.5);
+      color: #38bdf8;
+    }
+    /* CoreUI Bootstrap range slider - https://coreui.io/bootstrap/docs/forms/range-slider/ */
+    #revenue-filter .filter-label {
+      font-size: 0.875rem;
+      color: #6c757d;
+      margin-bottom: 0.5rem;
+      display: flex;
+      justify-content: space-between;
+    }
+    #revenue-filter .range-slider {
+      position: relative;
+      padding: 0.5rem 0;
+    }
+    #revenue-filter .track {
+      height: 24px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+    }
+    #revenue-filter .track-inner {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 50%;
+      margin-top: -0.25rem;
+      width: 100%;
+      height: 0.5rem;
+      background: var(--cui-tertiary-bg, #e9ecef);
+      border-radius: 1rem;
+      box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075);
+    }
+    #revenue-filter .track-fill {
+      position: absolute;
+      top: 50%;
+      margin-top: -0.25rem;
+      height: 0.5rem;
+      background: rgba(13, 110, 253, 0.5);
+      border-radius: 1rem;
+      pointer-events: none;
+      transition: left 0.15s ease-in-out, width 0.15s ease-in-out;
+    }
+    #revenue-filter .thumb-wrap {
+      position: absolute;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      cursor: grab;
+    }
+    #revenue-filter .thumb-wrap:active { cursor: grabbing; }
+    #revenue-filter .thumb {
+      width: 1rem;
+      height: 1rem;
+      background: var(--cui-component-active-bg, #0d6efd);
+      border: 0;
+      border-radius: 1rem;
+      cursor: grab;
+      box-shadow: 0 0.1rem 0.25rem rgba(0, 0, 0, 0.1);
+      transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    }
+    #revenue-filter .thumb:active { cursor: grabbing; }
+    #revenue-filter .thumb:hover,
+    #revenue-filter .thumb:focus {
+      background: #5a9aff;
+      box-shadow: 0 0 0 1px #fff, 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+      outline: none;
+    }
+    #revenue-filter .thumb-tooltip {
+      position: absolute;
+      bottom: calc(100% + 0.25rem);
+      left: 50%;
+      transform: translateX(-50%);
+      padding: 0.25rem 0.5rem;
+      font-size: 0.875rem;
+      color: var(--cui-body-color, #212529);
+      background: var(--cui-tertiary-bg, #e9ecef);
+      border-radius: var(--cui-border-radius, 0.375rem);
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+      white-space: nowrap;
+      pointer-events: none;
+      opacity: 0;
+      visibility: hidden;
+      transition: visibility 0.15s, opacity 0.15s ease-in-out;
+    }
+    #revenue-filter .thumb-wrap:hover .thumb-tooltip,
+    #revenue-filter .thumb-wrap.dragging .thumb-tooltip {
+      opacity: 1;
+      visibility: visible;
+    }
+    #revenue-filter .range-labels {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 0.25rem;
+      font-size: 0.875rem;
+      color: var(--cui-body-color, #6c757d);
+      padding: 0 0.5rem;
+    }
+    #revenue-filter .range-labels span {
+      cursor: pointer;
+      padding: 0 0.25rem;
+      border-radius: 0.25rem;
+      transition: color 0.15s ease-in-out, background 0.15s ease-in-out;
+    }
+    #revenue-filter .range-labels span:hover {
+      color: var(--cui-body-color, #212529);
+      background: rgba(0, 0, 0, 0.05);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Construction & Development Companies by Revenue</h1>
+    <p class="subtitle" id="subtitle"></p>
+    <div id="legend" class="legend"></div>
+    <div id="revenue-filter-wrap">
+      <div id="revenue-filter" class="disabled">
+        <div class="filter-label">
+          <span>Revenue (mln)</span>
+          <span id="revenue-range-text">85 – 299,200 mln</span>
+        </div>
+        <div class="range-slider">
+          <div class="track" id="revenue-track">
+            <div class="track-inner"></div>
+            <div class="track-fill" id="track-fill"></div>
+            <div class="thumb-wrap" id="thumb-min-wrap">
+              <span class="thumb-tooltip" id="thumb-min-tooltip">0 mln</span>
+              <div class="thumb" id="thumb-min" tabindex="0" role="slider" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-orientation="horizontal"></div>
+            </div>
+            <div class="thumb-wrap" id="thumb-max-wrap">
+              <span class="thumb-tooltip" id="thumb-max-tooltip">100 mln</span>
+              <div class="thumb" id="thumb-max" tabindex="0" role="slider" aria-valuemin="0" aria-valuemax="100" aria-valuenow="100" aria-orientation="horizontal"></div>
+            </div>
+          </div>
+          <div class="range-labels" id="range-labels"></div>
+        </div>
+      </div>
+      <button type="button" id="revenue-filter-btn">Activate</button>
+    </div>
+  </header>
+  <div id="treemap"></div>
+  <div class="tooltip" style="opacity: 0"></div>
+
+  <script>
+    fetch('companies-by-revenue.json').then(r => r.json()).then(data => {
+    const countries = [...new Set(data.companies.map(c => c.country))].sort();
+    const palette = [
+      ...d3.schemeTableau10,
+      ...d3.schemeSet2,
+      ...d3.schemeSet3,
+      ...d3.schemePaired,
+      ...d3.schemePastel1,
+      ...d3.schemePastel2,
+    ];
+    const colorScale = d3.scaleOrdinal()
+      .domain(countries)
+      .range(palette);
+
+    let selectedCountry = null;
+    const container = document.getElementById('treemap');
+    const tooltip = d3.select('.tooltip');
+    const margin = 12;
+
+    const revenues = data.companies.map(c => c.revenue);
+    const revenueMin = Math.min(...revenues);
+    const revenueMax = Math.max(...revenues);
+    let filterMinRev = revenueMin;
+    let filterMaxRev = revenueMax;
+    let revenueFilterEnabled = false;
+
+    function getFilteredCompanies() {
+      let list = selectedCountry
+        ? data.companies.filter(c => c.country === selectedCountry)
+        : data.companies;
+      if (!revenueFilterEnabled) return list;
+      return list.filter(c => c.revenue >= filterMinRev && c.revenue <= filterMaxRev);
+    }
+
+    function applyFilters() {
+      const filtered = getFilteredCompanies();
+      renderTreemap(filtered);
+      const sub = document.getElementById('subtitle');
+      if (selectedCountry) {
+        sub.textContent = `${filtered.length} companies from ${selectedCountry}`;
+      } else {
+        sub.textContent = `${filtered.length} of ${data.companies.length} companies`;
+      }
+      if (revenueFilterEnabled && (filterMinRev > revenueMin || filterMaxRev < revenueMax)) {
+        sub.textContent += ` · Revenue ${filterMinRev.toLocaleString()} – ${filterMaxRev.toLocaleString()} mln`;
+      } else {
+        sub.textContent += ` · Revenue in millions USD (2022–2023) · Colored by country`;
+      }
+    }
+
+    function positionTooltip(ev) {
+      let x = ev.clientX + 16;
+      let y = ev.clientY + 16;
+      tooltip.style('left', x + 'px').style('top', y + 'px');
+      const el = tooltip.node();
+      const rect = el.getBoundingClientRect();
+      if (rect.right > window.innerWidth) x = window.innerWidth - rect.width - margin;
+      if (rect.bottom > window.innerHeight) y = window.innerHeight - rect.height - margin;
+      if (rect.left < margin) x = margin;
+      if (rect.top < margin) y = margin;
+      tooltip.style('left', x + 'px').style('top', y + 'px');
+    }
+
+    function renderTreemap(companies) {
+      if (companies.length === 0) return;
+      const w = container.clientWidth - 24;
+      const h = container.clientHeight - 24;
+
+      const root = d3.hierarchy({ children: companies }, d => d.children)
+        .sum(d => d.revenue)
+        .sort((a, b) => b.value - a.value);
+
+      const treemapLayout = d3.treemap()
+        .size([w, h])
+        .padding(2)
+        .round(true);
+      treemapLayout(root);
+
+      d3.select('#treemap').selectAll('*').remove();
+      const svg = d3.select('#treemap')
+        .append('svg')
+        .attr('width', container.clientWidth)
+        .attr('height', container.clientHeight);
+
+      const g = svg.append('g').attr('transform', 'translate(12, 12)');
+
+      const cell = g.selectAll('g')
+        .data(root.leaves())
+        .join('g')
+        .attr('transform', d => `translate(${d.x0},${d.y0})`);
+
+      cell.append('rect')
+        .attr('width', d => d.x1 - d.x0)
+        .attr('height', d => d.y1 - d.y0)
+        .attr('fill', d => colorScale(d.data.country))
+        .attr('stroke', 'rgba(255,255,255,0.12)')
+        .attr('stroke-width', 1)
+        .attr('rx', 4)
+        .style('cursor', 'pointer');
+
+      const fo = cell.append('foreignObject')
+        .attr('width', d => Math.max(0, d.x1 - d.x0 - 4))
+        .attr('height', d => Math.max(0, d.y1 - d.y0 - 4))
+        .attr('x', 2)
+        .attr('y', 2);
+
+      fo.filter(d => d.x1 - d.x0 > 55 && d.y1 - d.y0 > 36)
+        .append('xhtml:div')
+        .style('padding', '4px 6px')
+        .style('font-size', '11px')
+        .style('line-height', '1.25')
+        .style('overflow', 'hidden')
+        .style('text-overflow', 'ellipsis')
+        .html(d => `<div class="tile-label">${d.data.name}</div><div class="tile-value">$${d.data.revenue >= 1000 ? (d.data.revenue / 1000).toFixed(1) + 'B' : d.data.revenue.toFixed(0) + 'M'}</div>`);
+
+      cell
+        .on('click', (ev, d) => {
+          const url = d.data.webpage ||
+            (d.data.ipo ? `https://finance.yahoo.com/quote/${encodeURIComponent(d.data.ipo)}` : null) ||
+            `https://www.google.com/search?q=${encodeURIComponent(d.data.name + ' company')}`;
+          window.open(url, '_blank', 'noopener,noreferrer');
+        })
+        .on('mouseenter', function(ev, d) {
+          d3.select(this).select('rect').style('filter', 'brightness(1.15)');
+          tooltip
+            .style('opacity', 1)
+            .html(`<div class="tooltip-name">${d.data.name}</div><div class="tooltip-revenue">$${d.data.revenue.toLocaleString()} M</div><div class="tooltip-country">${d.data.country}</div><div class="tooltip-hint">Click to open ${d.data.webpage ? 'website' : 'link'}</div>`);
+          positionTooltip(ev);
+        })
+        .on('mousemove', positionTooltip)
+        .on('mouseleave', function() {
+          d3.select(this).select('rect').style('filter', null);
+          tooltip.style('opacity', 0);
+        });
+    }
+
+    function updateLegend() {
+      const items = [{ id: null, label: 'All' }, ...countries.map(c => ({ id: c, label: c }))];
+      const legend = d3.select('#legend')
+        .selectAll('.legend-item')
+        .data(items, d => d.id);
+
+      legend.exit().remove();
+      const enter = legend.enter().append('span')
+        .attr('class', 'legend-item')
+        .style('cursor', 'pointer')
+        .on('click', (ev, d) => {
+          selectedCountry = d.id;
+          updateLegend();
+          applyFilters();
+        });
+
+      enter.append('span').attr('class', 'legend-swatch');
+      enter.append('span').attr('class', 'legend-text');
+
+      legend.merge(enter)
+        .classed('active', d => d.id === selectedCountry)
+        .each(function(d) {
+          const sel = d3.select(this);
+          sel.select('.legend-swatch')
+            .style('background', d.id ? colorScale(d.id) : 'rgba(148,163,184,0.5)');
+          sel.select('.legend-text').text(d.label);
+        });
+    }
+
+    function setupRevenueSlider() {
+      const track = document.getElementById('revenue-track');
+      const thumbMin = document.getElementById('thumb-min');
+      const thumbMax = document.getElementById('thumb-max');
+      const thumbMinWrap = document.getElementById('thumb-min-wrap');
+      const thumbMaxWrap = document.getElementById('thumb-max-wrap');
+      const thumbMinTooltip = document.getElementById('thumb-min-tooltip');
+      const thumbMaxTooltip = document.getElementById('thumb-max-tooltip');
+      const trackFill = document.getElementById('track-fill');
+      const rangeText = document.getElementById('revenue-range-text');
+      const rangeLabels = document.getElementById('range-labels');
+      const trackRect = () => track.getBoundingClientRect();
+
+      function posToRev(pct) {
+        const t = pct / 100;
+        return Math.pow(revenueMax / revenueMin, t) * revenueMin;
+      }
+      function revToPos(rev) {
+        return 100 * (Math.log(rev / revenueMin) / Math.log(revenueMax / revenueMin));
+      }
+
+      function updateUI() {
+        const pctMin = revToPos(filterMinRev);
+        const pctMax = revToPos(filterMaxRev);
+        thumbMinWrap.style.left = pctMin + '%';
+        thumbMaxWrap.style.left = pctMax + '%';
+        trackFill.style.left = pctMin + '%';
+        trackFill.style.width = (pctMax - pctMin) + '%';
+        rangeText.textContent = `${filterMinRev.toLocaleString()} – ${filterMaxRev.toLocaleString()} mln`;
+        thumbMinTooltip.textContent = filterMinRev.toLocaleString() + ' mln';
+        thumbMaxTooltip.textContent = filterMaxRev.toLocaleString() + ' mln';
+        thumbMin.setAttribute('aria-valuenow', Math.round(pctMin));
+        thumbMax.setAttribute('aria-valuenow', Math.round(pctMax));
+      }
+
+      function updateLabels() {
+        const midRev = Math.round(Math.sqrt(revenueMin * revenueMax));
+        const labels = [
+          { rev: revenueMin, label: revenueMin.toLocaleString() },
+          { rev: midRev, label: '~' + midRev.toLocaleString() },
+          { rev: revenueMax, label: revenueMax.toLocaleString() }
+        ];
+        rangeLabels.innerHTML = labels.map((d, i) =>
+          `<span data-rev="${d.rev}" data-side="${i === 0 ? 'min' : i === 2 ? 'max' : 'mid'}">${d.label}</span>`
+        ).join('');
+        rangeLabels.querySelectorAll('span').forEach(span => {
+          span.addEventListener('click', () => {
+            if (!revenueFilterEnabled) return;
+            const rev = +span.dataset.rev;
+            const side = span.dataset.side;
+            if (side === 'min') {
+              filterMinRev = Math.min(rev, filterMaxRev - 1);
+              filterMinRev = Math.max(revenueMin, filterMinRev);
+            } else if (side === 'max') {
+              filterMaxRev = Math.max(rev, filterMinRev + 1);
+              filterMaxRev = Math.min(revenueMax, filterMaxRev);
+            } else {
+              const range = filterMaxRev - filterMinRev;
+              filterMinRev = Math.max(revenueMin, rev - range / 2);
+              filterMaxRev = Math.min(revenueMax, filterMinRev + range);
+            }
+            updateUI();
+            applyFilters();
+          });
+        });
+      }
+      updateLabels();
+
+      function drag(thumb, wrap, isMin) {
+        return d3.drag()
+          .on('start', () => {
+            d3.select(wrap).raise();
+            wrap.classList.add('dragging');
+          })
+          .on('end', () => wrap.classList.remove('dragging'))
+          .on('drag', function(ev) {
+            const rect = trackRect();
+            const x = Math.max(0, Math.min(ev.x - rect.left, rect.width));
+            const pct = (x / rect.width) * 100;
+            const rev = posToRev(pct);
+
+            if (isMin) {
+              filterMinRev = Math.min(rev, filterMaxRev - 1);
+              filterMinRev = Math.max(revenueMin, filterMinRev);
+            } else {
+              filterMaxRev = Math.max(rev, filterMinRev + 1);
+              filterMaxRev = Math.min(revenueMax, filterMaxRev);
+            }
+            updateUI();
+            applyFilters();
+          });
+      }
+
+      d3.select(thumbMinWrap).call(drag(thumbMin, thumbMinWrap, true));
+      d3.select(thumbMaxWrap).call(drag(thumbMax, thumbMaxWrap, false));
+
+      updateUI();
+      return { updateUI };
+    }
+
+    const revenueSlider = setupRevenueSlider();
+
+    document.getElementById('revenue-filter-btn').addEventListener('click', () => {
+      revenueFilterEnabled = !revenueFilterEnabled;
+      const btn = document.getElementById('revenue-filter-btn');
+      const wrap = document.getElementById('revenue-filter');
+      if (revenueFilterEnabled) {
+        btn.textContent = 'Disable';
+        btn.classList.add('active');
+        wrap.classList.remove('disabled');
+      } else {
+        btn.textContent = 'Activate';
+        btn.classList.remove('active');
+        wrap.classList.add('disabled');
+        filterMinRev = revenueMin;
+        filterMaxRev = revenueMax;
+        revenueSlider.updateUI();
+      }
+      applyFilters();
+    });
+
+    document.getElementById('subtitle').textContent = `${data.companies.length} companies · Revenue in millions USD (2022–2023) · Colored by country`;
+    updateLegend();
+    applyFilters();
+
+    window.addEventListener('resize', () => {
+      const filtered = getFilteredCompanies();
+      if (filtered.length) renderTreemap(filtered);
+    });
+    }).catch(err => {
+      document.getElementById('subtitle').textContent = 'Failed to load data. Serve this folder via HTTP (e.g. npx serve .)';
+      console.error(err);
+    });
+  </script>
+</body>
+</html>

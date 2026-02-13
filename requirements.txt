@@ -1,0 +1,5 @@
+# CDC IPO research script - AI Gemini
+google-genai>=1.0.0
+# Webpage verification with OpenAI
+openai>=1.0.0
+# Fallback (optional): google-generativeai
