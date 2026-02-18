@@ -4,27 +4,29 @@
       "name": "China State Construction Engineering",
       "revenue": 299200,
       "country": "China",
-      "ipo": "601668.SS"
+      "ipo": "601668.SS",
+      "webpage": "https://english.cscec.com/"
     },
     {
       "name": "China Railway Group",
       "revenue": 156980,
       "country": "China",
       "ipo": "0390.HK",
-      "webpage": "https://www.crec.cn/"
+      "webpage": "https://www.crecg.com/english/"
     },
     {
       "name": "China Railway Construction",
       "revenue": 144650,
       "country": "China",
       "ipo": "601186.SS",
-      "webpage": "https://www.crcc.cn/"
+      "webpage": "https://english.crcc.cn/"
     },
     {
       "name": "China Communications Construction",
       "revenue": 104150,
       "country": "China",
-      "ipo": "601800.SS"
+      "ipo": "601800.SS",
+      "webpage": "https://en.ccccltd.cn/"
     },
     {
       "name": "Power Construction Corporation of China",
@@ -38,7 +40,7 @@
       "revenue": 75720,
       "country": "France",
       "ipo": "DG.PA",
-      "webpage": "https://www.vinci.com/"
+      "webpage": "https://www.vinci.com/en"
     },
     {
       "name": "Grupo ACS",
@@ -52,47 +54,49 @@
       "revenue": 63000,
       "country": "France",
       "ipo": "EN.PA",
-      "webpage": "https://www.bouygues.com/"
+      "webpage": "https://www.bouygues.com/en/"
     },
     {
       "name": "China Vanke",
       "revenue": 61470,
       "country": "China",
       "ipo": "000002.SZ",
-      "webpage": "https://www.vanke.com/"
+      "webpage": "https://www.vanke.com/en/"
     },
     {
       "name": "Country Garden",
       "revenue": 50800,
       "country": "China",
       "ipo": "2007.HK",
-      "webpage": "https://www.countrygarden.com.cn/"
+      "webpage": "https://www.countrygarden.com.cn/en/"
     },
     {
       "name": "Hochtief",
       "revenue": 42330,
       "country": "Germany",
-      "ipo": "HOT.F"
+      "ipo": "HOT.F",
+      "webpage": "https://www.hochtief.com/"
     },
     {
       "name": "Poly Developments",
       "revenue": 41600,
       "country": "China",
       "ipo": "600048.SS",
-      "webpage": "https://www.polycn.com/"
+      "webpage": "https://www.poly.com.cn/"
     },
     {
       "name": "China Resources Land",
       "revenue": 38200,
       "country": "Hong Kong",
-      "ipo": "1109.HK"
+      "ipo": "1109.HK",
+      "webpage": "https://www.crland.com.hk/"
     },
     {
       "name": "Daiwa House",
       "revenue": 35450,
       "country": "Japan",
       "ipo": "1925.T",
-      "webpage": "https://www.daiwahouse.com/"
+      "webpage": "https://www.daiwahouse.com/english/"
     },
     {
       "name": "Lennar",
@@ -105,86 +109,92 @@
       "name": "D.R. Horton",
       "revenue": 34570,
       "country": "United States",
-      "ipo": "DHI"
+      "ipo": "DHI",
+      "webpage": "https://www.drhorton.com/"
     },
     {
       "name": "Larsen & Toubro",
       "revenue": 30830,
       "country": "India",
-      "ipo": "LT.NS"
+      "ipo": "LT.NS",
+      "webpage": "https://www.larsentoubro.com/"
     },
     {
       "name": "Sekisui House",
       "revenue": 28000,
       "country": "Japan",
-      "ipo": "1928.T"
+      "ipo": "1928.T",
+      "webpage": "https://www.sekisuihouse.co.jp/english/"
     },
     {
       "name": "China National Chemical Engineering",
       "revenue": 25910,
       "country": "China",
       "ipo": "601117.SS",
-      "webpage": "http://www.cnce.com.cn/"
+      "webpage": "https://en.cncec.com.cn/"
     },
     {
       "name": "Eiffage",
       "revenue": 25010,
       "country": "France",
       "ipo": "FGR.PA",
-      "webpage": "https://www.eiffage.com/"
+      "webpage": "https://www.eiffage.com/en/"
     },
     {
       "name": "Hyundai Engineering & Construction",
       "revenue": 18400,
       "country": "South Korea",
       "ipo": "000720.KS",
-      "webpage": "https://www.hdec.kr/en/"
+      "webpage": "https://www.hdec.kr/eng/"
     },
     {
       "name": "Skanska",
       "revenue": 18300,
       "country": "Sweden",
       "ipo": "SKA B.ST",
-      "webpage": "https://www.skanska.com/"
+      "webpage": "https://group.skanska.com/"
     },
     {
       "name": "Kajima",
       "revenue": 18180,
       "country": "Japan",
       "ipo": "1812.T",
-      "webpage": "https://www.kajima.com/"
+      "webpage": "https://www.kajima.co.jp/english/"
     },
     {
       "name": "Strabag",
       "revenue": 17790,
       "country": "Austria",
-      "ipo": "XD4.F"
+      "ipo": "XD4.F",
+      "webpage": "https://www.strabag.com/en"
     },
     {
       "name": "PulteGroup",
       "revenue": 17620,
       "country": "United States",
-      "ipo": "PHM"
+      "ipo": "PHM",
+      "webpage": "https://www.pulte.com/"
     },
     {
       "name": "Mitsui Fudosan",
       "revenue": 17100,
       "country": "Japan",
-      "ipo": "8801.T"
+      "ipo": "8801.T",
+      "webpage": "https://www.mitsuifudosan.co.jp/english/"
     },
     {
       "name": "Emcor",
       "revenue": 16240,
       "country": "United States",
       "ipo": "EME",
-      "webpage": "https://www.emcorgroup.com/"
+      "webpage": "https://www.emcor.com/"
     },
     {
       "name": "Obayashi",
       "revenue": 15860,
       "country": "Japan",
       "ipo": "1802.T",
-      "webpage": "https://www.obayashi.co.jp/"
+      "webpage": "https://www.obayashi.co.jp/en/"
     },
     {
       "name": "Fluor",
@@ -198,48 +208,49 @@
       "revenue": 14820,
       "country": "Hong Kong",
       "ipo": "3311.HK",
-      "webpage": "https://www.csci.com.hk/"
+      "webpage": "https://www.chinaconstruction.com/"
     },
     {
       "name": "Sichuan Road and Bridge Group",
       "revenue": 14590,
       "country": "China",
       "ipo": "600039.SS",
-      "webpage": "https://www.scrbg.com/"
+      "webpage": "https://www.srbg.com.cn/"
     },
     {
       "name": "Shimizu Corporation",
       "revenue": 13670,
       "country": "Japan",
       "ipo": "1803.T",
-      "webpage": "https://www.shimz.co.jp/"
+      "webpage": "https://www.shimz.co.jp/english/"
     },
     {
       "name": "Sumitomo Forestry",
       "revenue": 12610,
       "country": "Japan",
       "ipo": "1911.T",
-      "webpage": "https://sfc.jp/"
+      "webpage": "https://www.sumitomo-forestry.com/english/"
     },
     {
       "name": "Taisei Corporation",
       "revenue": 11990,
       "country": "Japan",
       "ipo": "1801.T",
-      "webpage": "https://www.taisei.co.jp/"
+      "webpage": "https://www.taisei.co.jp/english/"
     },
     {
       "name": "Daito Trust Construction",
       "revenue": 11810,
       "country": "Japan",
       "ipo": "1878.T",
-      "webpage": "https://www.daitotrust.com/"
+      "webpage": "https://www.daito-trust.co.jp/english/"
     },
     {
       "name": "NVR",
       "revenue": 10979.7,
       "country": "United States",
-      "ipo": "NVR"
+      "ipo": "NVR",
+      "webpage": "https://www.nvrinc.com/"
     },
     {
       "name": "Toll Brothers",
@@ -252,34 +263,36 @@
       "name": "Balfour Beatty",
       "revenue": 10330,
       "country": "United Kingdom",
-      "ipo": "BBY.L"
+      "ipo": "BBY.L",
+      "webpage": "https://www.balfourbeatty.com/"
     },
     {
       "name": "Ferrovial",
       "revenue": 9840,
       "country": "Spain",
       "ipo": "FER.MC",
-      "webpage": "https://www.ferrovial.com"
+      "webpage": "https://www.ferrovial.com/"
     },
     {
       "name": "GS Engineering & Construction",
       "revenue": 9300,
       "country": "South Korea",
       "ipo": "006360.KS",
-      "webpage": "https://www.gsenc.com/"
+      "webpage": "https://www.gsconst.com/eng/"
     },
     {
       "name": "Taylor Morrison",
       "revenue": 8370,
       "country": "United States",
-      "ipo": "TMHC"
+      "ipo": "TMHC",
+      "webpage": "https://www.taylormorrison.com/"
     },
     {
       "name": "Sumitomo Realty & Development",
       "revenue": 7830,
       "country": "Japan",
       "ipo": "8830.T",
-      "webpage": "https://www.sumitomo-rd.co.jp/"
+      "webpage": "https://www.sumitomo-rd.co.jp/english/"
     },
     {
       "name": "Acciona",
@@ -299,48 +312,50 @@
       "name": "AtkinsR\u00e9alis",
       "revenue": 7580,
       "country": "Canada",
-      "ipo": "ATRL.TO"
+      "ipo": "ATRL.TO",
+      "webpage": "https://www.atkinsrealis.com/"
     },
     {
       "name": "Primoris Services",
       "revenue": 7450,
       "country": "United States",
       "ipo": "PRIM",
-      "webpage": "https://www.primoriscorp.com/"
+      "webpage": "https://www.prim.com/"
     },
     {
       "name": "HASEKO Corporation",
       "revenue": 7450,
       "country": "Japan",
       "ipo": "1808.T",
-      "webpage": "https://www.haseko.co.jp/"
+      "webpage": "https://www.haseko.co.jp/english/"
     },
     {
       "name": "Lendlease",
       "revenue": 7430,
       "country": "Australia",
       "ipo": "LLC",
-      "webpage": "https://www.lendlease.com"
+      "webpage": "https://www.lendlease.com/"
     },
     {
       "name": "PIK Group",
       "revenue": 7300,
       "country": "Russia",
       "ipo": "PIKK",
-      "webpage": "https://www.pik.ru/"
+      "webpage": "https://pik-group.com/"
     },
     {
       "name": "Subsea 7",
       "revenue": 6980,
       "country": "Luxembourg",
       "ipo": "SUBC.OL",
-      "webpage": "https://www.subsea7.com"
+      "webpage": "https://www.subsea7.com/"
     },
     {
       "name": "PORR",
       "revenue": 6900,
       "country": "Austria",
-      "ipo": "ABS2.F"
+      "ipo": "ABS2.F",
+      "webpage": "https://www.porr-group.com/"
     },
     {
       "name": "Emaar Properties",
@@ -353,52 +368,57 @@
       "name": "KB Home",
       "revenue": 6540,
       "country": "United States",
-      "ipo": "KBH"
+      "ipo": "KBH",
+      "webpage": "https://www.kbhome.com/"
     },
     {
       "name": "Ackermans & Van Haaren",
       "revenue": 6280,
       "country": "Belgium",
-      "ipo": "ACKB.BR"
+      "ipo": "ACKB.BR",
+      "webpage": "https://www.avh.be/"
     },
     {
       "name": "Sacyr",
       "revenue": 6140,
       "country": "Spain",
-      "ipo": "SCYR.MC"
+      "ipo": "SCYR.MC",
+      "webpage": "https://www.sacyr.com/"
     },
     {
       "name": "Meritage Homes",
       "revenue": 6040,
       "country": "United States",
-      "ipo": "MTH"
+      "ipo": "MTH",
+      "webpage": "https://www.meritagehomes.com/"
     },
     {
       "name": "Vonovia",
       "revenue": 6040,
       "country": "Germany",
       "ipo": "VNA",
-      "webpage": "https://www.vonovia.de"
+      "webpage": "https://www.vonovia.de/"
     },
     {
       "name": "NCC",
       "revenue": 5890,
       "country": "Sweden",
       "ipo": "NCC B.ST",
-      "webpage": "https://www.ncc.se/"
+      "webpage": "https://www.ncc.se/en/"
     },
     {
       "name": "Peab",
       "revenue": 5770,
       "country": "Sweden",
       "ipo": "PEAB B.ST",
-      "webpage": "https://peab.se/"
+      "webpage": "https://www.peab.se/"
     },
     {
       "name": "JGC Holdings",
       "revenue": 5670,
       "country": "Japan",
-      "ipo": "1963.T"
+      "ipo": "1963.T",
+      "webpage": "https://www.jgc.com/en/"
     },
     {
       "name": "INFRONEER Holdings",
@@ -412,26 +432,28 @@
       "revenue": 5270,
       "country": "United Kingdom",
       "ipo": "BTRW.L",
-      "webpage": "https://www.barrattredrow.co.uk/"
+      "webpage": "https://www.barrattdevelopments.co.uk/"
     },
     {
       "name": "MDC Holdings",
       "revenue": 5210.4,
       "country": "United States",
       "ipo": "MDC",
-      "webpage": "https://www.mdcholdings.com/"
+      "webpage": "https://www.richmondamerican.com/"
     },
     {
       "name": "Aecon Group",
       "revenue": 5199,
       "country": "Canada",
-      "ipo": "ARE"
+      "ipo": "ARE",
+      "webpage": "https://www.aecon.com/"
     },
     {
       "name": "Tutor Perini",
       "revenue": 5100,
       "country": "United States",
-      "ipo": "TPC"
+      "ipo": "TPC",
+      "webpage": "https://www.tutorperini.com/"
     },
     {
       "name": "Webuild",
@@ -444,7 +466,8 @@
       "name": "Obrasc\u00f3n Huarte Lain",
       "revenue": 4950,
       "country": "Spain",
-      "ipo": "OHLA.MC"
+      "ipo": "OHLA.MC",
+      "webpage": "https://www.ohla-group.com/"
     },
     {
       "name": "Kier Group",
@@ -457,7 +480,8 @@
       "name": "Vistry Group",
       "revenue": 4740,
       "country": "United Kingdom",
-      "ipo": "VTY.L"
+      "ipo": "VTY.L",
+      "webpage": "https://www.vistrygroup.co.uk/"
     },
     {
       "name": "Fletcher Building",
@@ -470,7 +494,8 @@
       "name": "Dream Finders Homes",
       "revenue": 4670,
       "country": "United States",
-      "ipo": "DFH"
+      "ipo": "DFH",
+      "webpage": "https://www.dreamfindershomes.com/"
     },
     {
       "name": "Orascom Construction",
@@ -490,7 +515,8 @@
       "name": "M/I Homes",
       "revenue": 4470,
       "country": "United States",
-      "ipo": "MHO"
+      "ipo": "MHO",
+      "webpage": "https://www.mihomes.com/"
     },
     {
       "name": "DEME Group",
@@ -504,7 +530,7 @@
       "revenue": 4230,
       "country": "United States",
       "ipo": "GVA",
-      "webpage": "https://www.graniteconstruction.com"
+      "webpage": "https://www.graniteconstruction.com/"
     },
     {
       "name": "Century Communities",
@@ -518,59 +544,63 @@
       "revenue": 4070,
       "country": "Japan",
       "ipo": "1942.T",
-      "webpage": "https://www.kandenko.co.jp/"
+      "webpage": "https://www.kandenko.co.jp/english/"
     },
     {
       "name": "Persimmon",
       "revenue": 4010,
       "country": "United Kingdom",
       "ipo": "PSN.L",
-      "webpage": "https://www.persimmonhomes.com"
+      "webpage": "https://www.persimmonhomes.com/"
     },
     {
       "name": "Implenia",
       "revenue": 3940,
       "country": "Switzerland",
       "ipo": "IMPN.SW",
-      "webpage": "https://www.implenia.com"
+      "webpage": "https://www.implenia.com/"
     },
     {
       "name": "Veidekke",
       "revenue": 3910,
       "country": "Norway",
-      "ipo": "VEI.OL"
+      "ipo": "VEI.OL",
+      "webpage": "https://www.veidekke.com/"
     },
     {
       "name": "Shandong Hi-Speed",
       "revenue": 3770,
       "country": "China",
-      "ipo": "600350.SS"
+      "ipo": "600350.SS",
+      "webpage": "https://www.sdhs.com.cn/"
     },
     {
       "name": "Tri Pointe Homes",
       "revenue": 3750,
       "country": "United States",
-      "ipo": "TPH"
+      "ipo": "TPH",
+      "webpage": "https://www.tripointehomes.com/"
     },
     {
       "name": "TODA Corporation",
       "revenue": 3550,
       "country": "Japan",
       "ipo": "1860.T",
-      "webpage": "https://www.toda.co.jp/"
+      "webpage": "https://www.todakenchiku.co.jp/english/"
     },
     {
       "name": "MYR Group",
       "revenue": 3510,
       "country": "United States",
-      "ipo": "MYRG"
+      "ipo": "MYRG",
+      "webpage": "https://www.myrgroup.com/"
     },
     {
       "name": "Samolet Group",
       "revenue": 3391,
       "country": "Russia",
       "ipo": "SMLT",
-      "webpage": "https://samoletgroup.ru/"
+      "webpage": "https://www.samolet.ru/"
     },
     {
       "name": "Per Aarsleff Holding",
@@ -605,34 +635,35 @@
       "revenue": 3050,
       "country": "United Kingdom",
       "ipo": "BWY.L",
-      "webpage": "https://www.bellwayplc.co.uk/"
+      "webpage": "https://www.bellway.co.uk/"
     },
     {
       "name": "Installed Building Products",
       "revenue": 2970,
       "country": "United States",
       "ipo": "IBP",
-      "webpage": "https://installedbuildingproducts.com/"
+      "webpage": "https://www.installedbuildingproducts.com/"
     },
     {
       "name": "AF Gruppen",
       "revenue": 2890,
       "country": "Norway",
       "ipo": "AFG.OL",
-      "webpage": "https://www.afgruppen.no/"
+      "webpage": "https://www.afgruppen.com/"
     },
     {
       "name": "ENKA",
       "revenue": 2840,
       "country": "Turkey",
       "ipo": "ENKAI.IS",
-      "webpage": "https://enka.com/"
+      "webpage": "https://www.enka.com/"
     },
     {
       "name": "Beazer Homes",
       "revenue": 2837.1,
       "country": "United States",
-      "ipo": "BZH"
+      "ipo": "BZH",
+      "webpage": "https://www.beazer.com/"
     },
     {
       "name": "Arcosa",
@@ -646,13 +677,14 @@
       "revenue": 2770,
       "country": "India",
       "ipo": "KPIL.NS",
-      "webpage": "https://kalpatarupower.com/"
+      "webpage": "https://www.kalpatarupower.com/"
     },
     {
       "name": "KEC International",
       "revenue": 2660,
       "country": "India",
-      "ipo": "KEC.NS"
+      "ipo": "KEC.NS",
+      "webpage": "https://www.kecl.com/"
     },
     {
       "name": "Elecnor",
@@ -666,21 +698,21 @@
       "revenue": 2620,
       "country": "United States",
       "ipo": "SKY",
-      "webpage": "https://championhomes.com/"
+      "webpage": "https://www.skylinechampion.com/"
     },
     {
       "name": "Shikun & Binui",
       "revenue": 2590,
       "country": "Israel",
       "ipo": "SKBN.TA",
-      "webpage": "https://www.shikun-binui.com/"
+      "webpage": "https://www.shikunbinui.com/"
     },
     {
       "name": "NCC Limited",
       "revenue": 2540,
       "country": "India",
       "ipo": "NCC.NS",
-      "webpage": "https://ncclimited.com/"
+      "webpage": "https://www.ncclimited.com/"
     },
     {
       "name": "YIT",
@@ -694,7 +726,7 @@
       "revenue": 2450,
       "country": "United States",
       "ipo": "ROAD",
-      "webpage": "https://www.constructionpartners.net"
+      "webpage": "https://www.constructionpartners.com/"
     },
     {
       "name": "City Developments Limited (CDL)",
@@ -708,7 +740,7 @@
       "revenue": 2400,
       "country": "Russia",
       "ipo": "LSRG",
-      "webpage": "https://www.lsr.ru/"
+      "webpage": "https://www.lsrgroup.ru/"
     },
     {
       "name": "Budimex",
@@ -728,40 +760,43 @@
       "name": "Sterling Infrastructure",
       "revenue": 2230,
       "country": "United States",
-      "ipo": "STRL"
+      "ipo": "STRL",
+      "webpage": "https://www.sterlinginfrastructure.com/"
     },
     {
       "name": "Gek Terna",
       "revenue": 2170,
       "country": "Greece",
       "ipo": "GEKTERNA.AT",
-      "webpage": "https://www.gekterna.gr/"
+      "webpage": "https://www.gekterna.com/"
     },
     {
       "name": "Grupo Empresarial San Jos\u00e9",
       "revenue": 2120,
       "country": "Spain",
       "ipo": "GSJ.MC",
-      "webpage": "https://www.gesanjose.com/"
+      "webpage": "https://www.gruposanjose.com/"
     },
     {
       "name": "Green Brick Partners",
       "revenue": 2110,
       "country": "United States",
       "ipo": "GRBK",
-      "webpage": "https://greenbrickpartners.com/"
+      "webpage": "https://www.greenbrickpartners.com/"
     },
     {
       "name": "Okumura Corporation",
       "revenue": 1960,
       "country": "Japan",
-      "ipo": "1833.T"
+      "ipo": "1833.T",
+      "webpage": "https://www.okumura.co.jp/english/"
     },
     {
       "name": "Mirvac",
       "revenue": 1890,
       "country": "Australia",
-      "ipo": "MGR"
+      "ipo": "MGR",
+      "webpage": "https://www.mirvac.com/"
     },
     {
       "name": "Stockland",
@@ -775,27 +810,28 @@
       "revenue": 1440,
       "country": "Germany",
       "ipo": "LEG",
-      "webpage": "https://www.leg.ag/"
+      "webpage": "https://www.leg-wohnen.de/"
     },
     {
       "name": "Setl Group",
       "revenue": 1337,
       "country": "Russia",
-      "ipo": null
+      "ipo": null,
+      "webpage": "https://www.setlgroup.ru/"
     },
     {
       "name": "Etalon Group",
       "revenue": 1310,
       "country": "Russia",
       "ipo": "ETLN",
-      "webpage": "https://etalongroup.com/"
+      "webpage": "https://www.etalongroup.com/"
     },
     {
       "name": "BI Group",
       "revenue": 1290,
       "country": "Kazakhstan",
       "ipo": "BIGD",
-      "webpage": "https://bi-group.kz/"
+      "webpage": "https://www.bi-group.org/"
     },
     {
       "name": "Goodman Group",
@@ -808,19 +844,22 @@
       "name": "Aroundtown",
       "revenue": 1220,
       "country": "Luxembourg",
-      "ipo": "AT1"
+      "ipo": "AT1",
+      "webpage": "https://www.aroundtown.de/"
     },
     {
       "name": "Cyrela Brazil Realty",
       "revenue": 1000,
       "country": "Brazil",
-      "ipo": "CYRE3.SA"
+      "ipo": "CYRE3.SA",
+      "webpage": "https://www.cyrela.com.br/"
     },
     {
       "name": "MRV",
       "revenue": 810,
       "country": "Brazil",
-      "ipo": "MRVE3.SA"
+      "ipo": "MRVE3.SA",
+      "webpage": "https://www.mrv.com.br/"
     },
     {
       "name": "DLF Limited",
@@ -848,7 +887,7 @@
       "revenue": 445,
       "country": "Finland",
       "ipo": "KOJAMO.HE",
-      "webpage": "https://kojamo.fi/"
+      "webpage": "https://www.kojamo.fi/"
     },
     {
       "name": "TAG Immobilien",
@@ -876,14 +915,14 @@
       "revenue": 301,
       "country": "Austria",
       "ipo": "SPI",
-      "webpage": "https://www.simmo.at/"
+      "webpage": "https://www.s-immo.at/"
     },
     {
       "name": "Cofinimmo",
       "revenue": 270,
       "country": "Belgium",
       "ipo": "COFB.BR",
-      "webpage": "https://www.cofinimmo.com"
+      "webpage": "https://www.cofinimmo.be/"
     },
     {
       "name": "Cedar Woods Properties",
@@ -903,7 +942,8 @@
       "name": "KazStroyService",
       "revenue": 141,
       "country": "Kazakhstan",
-      "ipo": "KASS"
+      "ipo": "KASS",
+      "webpage": "https://www.kazstroy.kz/"
     },
     {
       "name": "Warimpex",
@@ -923,7 +963,8 @@
       "name": "Tegra Incorporadora",
       "revenue": 85,
       "country": "Brazil",
-      "ipo": null
+      "ipo": null,
+      "webpage": "https://www.tegra.com.br/"
     }
   ],
   "totalRevenue": 2073493.32
