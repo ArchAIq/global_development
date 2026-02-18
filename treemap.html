@@ -298,6 +298,11 @@
     const tooltip = d3.select('.tooltip');
     const margin = 12;
 
+    function hasValidWebpage(d) {
+      const wp = (d?.webpage || '').trim();
+      return !!wp && /^https?:\/\//i.test(wp);
+    }
+
     const revenues = data.companies.map(c => c.revenue);
     const revenueMin = Math.min(...revenues);
     const revenueMax = Math.max(...revenues);
@@ -396,16 +401,20 @@
 
       cell
         .on('click', (ev, d) => {
-          const url = d.data.webpage ||
-            (d.data.ipo ? `https://finance.yahoo.com/quote/${encodeURIComponent(d.data.ipo)}` : null) ||
-            `https://www.google.com/search?q=${encodeURIComponent(d.data.name + ' company')}`;
-          window.open(url, '_blank', 'noopener,noreferrer');
+          const url = hasValidWebpage(d.data)
+            ? (d.data.webpage || '').trim()
+            : `https://www.google.com/search?q=${encodeURIComponent(d.data.name + ' company')}`;
+          const a = document.createElement('a');
+          a.href = url;
+          a.target = '_blank';
+          a.rel = 'noopener noreferrer';
+          a.click();
         })
         .on('mouseenter', function(ev, d) {
           d3.select(this).select('rect').style('filter', 'brightness(1.15)');
           tooltip
             .style('opacity', 1)
-            .html(`<div class="tooltip-name">${d.data.name}</div><div class="tooltip-revenue">$${d.data.revenue.toLocaleString()} M</div><div class="tooltip-country">${d.data.country}</div><div class="tooltip-hint">Click to open ${d.data.webpage ? 'website' : 'link'}</div>`);
+            .html(`<div class="tooltip-name">${d.data.name}</div><div class="tooltip-revenue">$${d.data.revenue.toLocaleString()} M</div><div class="tooltip-country">${d.data.country}</div><div class="tooltip-hint">Click to open ${hasValidWebpage(d.data) ? 'website' : 'link'}</div>`);
           positionTooltip(ev);
         })
         .on('mousemove', positionTooltip)

@@ -27,7 +27,7 @@ def main():
 
     for c in data["companies"]:
         name = c.get("name", "")
-        c["webpage"] = webpage_by_name.get(name) or None
+        c["webpage"] = webpage_by_name.get(name) or c.get("webpage") or None
 
     with open(JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2)

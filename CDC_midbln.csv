@@ -16,7 +16,7 @@ brand_id,brand_name,hq_office,hq_address,lat,lon,country,country_code,founded,la
 15,China National Chemical Engineering,China National Chemical Engineering Co. Ltd.,"No. 16 North Chaoyangmen Avenue, Chaoyang District, Beijing 100020, China",39.9289,116.388,China,CN,1953,25910,350,2023,601117.SS,120000,https://en.cncec.com.cn/
 16,Eiffage,Eiffage SA,"3-7 Place de l'Europe, 78140 Velizy-Villacoublay, France",48.7819,2.2138,France,FR,1992,25010,680,2023,FGR.PA,80000,https://www.eiffage.com/en/
 17,Skanska,Skanska AB,"Warfvinges väg 25, SE-112 51 Stockholm, Sweden",59.3326,18.0316,Sweden,SE,1887,18300,274,2023,SKA B.ST,27430,https://group.skanska.com/
-18,Kajima,Kajima Corporation,"2-1-6 Akasaka, Minato-ku, Tokyo 107-8348, Japan",35.6762,139.650,Japan,JP,1840,18180,580,2023,1812.T,36000,https://www.kajima.co.jp/english/
+18,Kajima,Kajima Corporation,"2-1-6 Akasaka, Minato-ku, Tokyo 107-8348, Japan",35.6762,139.65,Japan,JP,1840,18180,580,2023,1812.T,36000,https://www.kajima.co.jp/english/
 19,Strabag,Strabag SE,"Trabrennstrasse 2, 1020 Vienna, Austria",48.2082,16.3738,Austria,AT,1835,17790,420,2023,XD4.F,76000,https://www.strabag.com/en
 20,PulteGroup,PulteGroup Inc.,"3350 Peachtree Road NE, Suite 150, Atlanta, GA 30326, USA",33.845,-84.366,United States,US,1950,17620,2463,2023,PHM,5855,https://www.pulte.com/
 21,China Vanke,China Vanke Co. Ltd.,"Vanke Center, No.33 Huanmei Road, Dameisha, Yantian District, Shenzhen, Guangdong, China",22.5833,114.25,China,CN,1984,61470,1728,2023,000002.SZ,116394,https://www.vanke.com/en/
@@ -24,7 +24,7 @@ brand_id,brand_name,hq_office,hq_address,lat,lon,country,country_code,founded,la
 23,Poly Developments,Poly Developments and Holdings Group Co. Ltd.,"Poly Plaza, No. 14 Linhe West Road, Tianhe District, Guangzhou, Guangdong, China",23.1417,113.3167,China,CN,1992,41600,2250,2023,600048.SS,30000,https://www.poly.com.cn/
 24,China Resources Land,China Resources Land Limited,"China Resources Building, 26 Harbour Road, Wan Chai, Hong Kong",22.2783,114.1747,Hong Kong,HK,1994,38200,4500,2023,1109.HK,40000,https://www.crland.com.hk/
 25,Emcor,Emcor Group Inc.,"301 Merritt 7, Norwalk, CT 06851, USA",41.1364,-73.4174,United States,US,1946,16240,820,2023,EME,28000,https://www.emcor.com/
-26,Obayashi,Obayashi Corporation,"2-15-2 Konan, Minato-ku, Tokyo 108-8502, Japan",35.6426,139.698,Japan,JP,1892,15860,480,2023,1802.T,38000,
+26,Obayashi,Obayashi Corporation,"2-15-2 Konan, Minato-ku, Tokyo 108-8502, Japan",35.6426,139.698,Japan,JP,1892,15860,480,2023,1802.T,38000,https://www.obayashi.co.jp/en/
 27,Fluor,Fluor Corporation,"6700 Las Colinas Boulevard, Irving, TX 75039, USA",32.8719,-96.9434,United States,US,1912,15580,-280,2023,FLR,41000,https://www.fluor.com/
 28,China State Construction International,China State Construction International Holdings Ltd.,"Central Plaza, 18 Harbour Road, Wan Chai, Hong Kong",22.2783,114.1747,Hong Kong,HK,1979,14820,450,2023,3311.HK,25000,https://www.chinaconstruction.com/
 29,Sichuan Road and Bridge Group,Sichuan Road and Bridge Group (SRBG),"Chengdu, Sichuan Province, China",30.5728,104.0668,China,CN,1950,14590,280,2023,600039.SS,45000,https://www.srbg.com.cn/
@@ -72,7 +72,7 @@ brand_id,brand_name,hq_office,hq_address,lat,lon,country,country_code,founded,la
 71,Persimmon,Persimmon plc,"Persimmon House, Fulford, York YO19 4FE, UK",53.9432,-1.0619,United Kingdom,GB,1972,4010,250,2023,PSN.L,5000,https://www.persimmonhomes.com/
 72,Implenia,Implenia AG,"Thurgauerstrasse 101A, 8152 Glattpark, Switzerland",47.4114,8.5776,Switzerland,CH,2006,3940,95,2023,IMPN.SW,10000,https://www.implenia.com/
 73,Veidekke,Veidekke ASA,"Skøyen Atrium, Skøyen, 0212 Oslo, Norway",59.9139,10.7522,Norway,NO,1936,3910,185,2023,VEI.OL,8500,https://www.veidekke.com/
-74,Shandong Hi-Speed,Shandong Hi-Speed Group Co. Ltd.,"Jinan, Shandong Province, China",36.6512,117.120,China,CN,1993,3770,120,2023,600350.SS,45000,https://www.sdhs.com.cn/
+74,Shandong Hi-Speed,Shandong Hi-Speed Group Co. Ltd.,"Jinan, Shandong Province, China",36.6512,117.12,China,CN,1993,3770,120,2023,600350.SS,45000,https://www.sdhs.com.cn/
 75,Tri Pointe Homes,Tri Pointe Homes Inc.,"19520 Jamboree Road, Irvine, CA 92612, USA",33.6846,-117.826,United States,US,2007,3750,320,2023,TPH,1100,https://www.tripointehomes.com/
 76,TODA Corporation,TODA Corporation,"1-19-1 Ginza, Chuo-ku, Tokyo 104-0061, Japan",35.6744,139.763,Japan,JP,1881,3550,120,2023,1860.T,16000,https://www.todakenchiku.co.jp/english/
 77,Aecon Group,Aecon Group Inc.,"2005 Sheppard Avenue East, Suite 400, Toronto, ON M2J 5B4, Canada",43.768,-79.339,Canada,CA,1877,5199,83,2023,ARE,12000,https://www.aecon.com/
